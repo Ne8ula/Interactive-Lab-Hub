@@ -1,4 +1,7 @@
-# [Your name here]'s-Lab-Hub
+#Alex's-Lab-Hub
+Name: Hao Chen Xiong
+ID: hx329
+
 for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/)
 
 Please place links here to the README.md's for each of your labs here:
