@@ -14,7 +14,7 @@ Lab 3. Chatterboxes
 
 Lab 4. Ph-UI!!!
 
-Lab 5. Observant Systems
+[Lab 5. Observant Systems](Lab%205/)
 
 Lab 6. Little Interactions Everywhere
 
