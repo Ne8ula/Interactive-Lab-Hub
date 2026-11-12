@@ -12,7 +12,7 @@ Lab 2. Interactive Prototyping: The Clock of Pi
 
 Lab 3. Chatterboxes
 
-Lab 4. Ph-UI!!!
+[Lab 4. Ph-UI!!!](Lab%204/)
 
 [Lab 5. Observant Systems](Lab%205/)
 
