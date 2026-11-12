@@ -1,0 +1,9 @@
+Adafruit-Blinka
+adafruit-circuitpython-rgb-display
+adafruit-circuitpython-ssd1306
+adafruit-circuitpython-mpr121
+adafruit-circuitpython-seesaw
+sparkfun-qwiic-button
+gpiozero
+adafruit-circuitpython-servokit
+Pillow

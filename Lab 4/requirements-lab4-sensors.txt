@@ -1,0 +1,4 @@
+# Additional libraries for the course's Part B scripts.
+adafruit-circuitpython-apds9960
+sparkfun-qwiic-joystick
+sparkfun-qwiic-proximity
