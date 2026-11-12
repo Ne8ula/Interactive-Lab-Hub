@@ -1,0 +1,57 @@
+{
+  "started_utc": "2026-11-11T01:19:15.492054+00:00",
+  "settings": {
+    "mode": "voice",
+    "audio_test": false,
+    "display": "mini-pitft",
+    "display_rotation": 90,
+    "model": "/home/ne8ula/a4-shelf-watcher/models/a4-pi-v2/model.tflite",
+    "labels": "/home/ne8ula/a4-shelf-watcher/models/a4-pi-v2/labels.txt",
+    "audio_dir": "/home/ne8ula/a4-shelf-watcher/assets/audio",
+    "output": "/home/ne8ula/a4-shelf-watcher/runs/part-b",
+    "camera": 0,
+    "seconds": 300.0,
+    "fps": 5,
+    "start_delay": 10.0,
+    "persistence": 10.0,
+    "cooldown": 7.0,
+    "threshold": 0.85,
+    "max_gap": 3
+  },
+  "model_sha256": "aa7bf8402ce755014114dbbc298ee6f3b08e404507235dde72af2735c6f3a513",
+  "tensors": {
+    "labels": [
+      "WORK",
+      "VIDEO",
+      "NEUTRAL"
+    ],
+    "input_shape": [
+      1,
+      224,
+      224,
+      3
+    ],
+    "input_dtype": "<class 'numpy.uint8'>",
+    "input_quantization": [
+      0.007843137718737125,
+      127
+    ],
+    "output_dtype": "<class 'numpy.uint8'>",
+    "output_quantization": [
+      0.00390625,
+      0
+    ]
+  },
+  "player": "/usr/bin/paplay",
+  "audio_sha256": {
+    "reminder-01.wav": "0d49cd36b1a5abb08b305183011d419363505b7baa18d8959fc6d2d3d73eda77",
+    "reminder-02.wav": "0dd124ae5f6b02ba1d18a2ad59ca70eb56a281bcf4178f656cffcbb6e2dd4668",
+    "reminder-03.wav": "a38260e2ba1baa0a76aedfdcc7b737f74abc5ffd1bb8f12078961d99f09d8880"
+  },
+  "video_note": "Silent camera MP4. Phone recording with microphone is needed to demonstrate audible output.",
+  "timing_note": "MP4 is constant FPS; CSV elapsed_seconds and capture_utc preserve actual capture timing.",
+  "status": "stopped_by_user",
+  "capture_started_utc": "2026-11-11T01:19:26.850759+00:00",
+  "finished_utc": "2026-11-11T01:21:20.730382+00:00",
+  "frames": 568
+}

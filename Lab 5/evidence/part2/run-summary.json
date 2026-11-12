@@ -1,0 +1,125 @@
+{
+  "source_run": "/home/ne8ula/a4-shelf-watcher/runs/part-b/20261110-201915-491650-voice",
+  "frames": 568,
+  "status": "stopped_by_user",
+  "capture_started_utc": "2026-11-11T01:19:26.850759+00:00",
+  "stop_elapsed_seconds": 113.69320469800005,
+  "settings": {
+    "mode": "voice",
+    "audio_test": false,
+    "display": "mini-pitft",
+    "display_rotation": 90,
+    "model": "/home/ne8ula/a4-shelf-watcher/models/a4-pi-v2/model.tflite",
+    "labels": "/home/ne8ula/a4-shelf-watcher/models/a4-pi-v2/labels.txt",
+    "audio_dir": "/home/ne8ula/a4-shelf-watcher/assets/audio",
+    "output": "/home/ne8ula/a4-shelf-watcher/runs/part-b",
+    "camera": 0,
+    "seconds": 300.0,
+    "fps": 5,
+    "start_delay": 10.0,
+    "persistence": 10.0,
+    "cooldown": 7.0,
+    "threshold": 0.85,
+    "max_gap": 3
+  },
+  "reminders": [
+    {
+      "clip": "reminder-01.wav",
+      "start_seconds": 20.68055311099988,
+      "completed_seconds": 23.83945208,
+      "trigger_frame": 103,
+      "video_held_seconds": 10.005
+    },
+    {
+      "clip": "reminder-02.wav",
+      "start_seconds": 27.88362654299999,
+      "completed_seconds": 30.442495130999987,
+      "trigger_frame": 139,
+      "video_held_seconds": 17.208
+    },
+    {
+      "clip": "reminder-03.wav",
+      "start_seconds": 35.087298014,
+      "completed_seconds": 37.645858137999994,
+      "trigger_frame": 175,
+      "video_held_seconds": 24.412
+    },
+    {
+      "clip": "reminder-01.wav",
+      "start_seconds": 42.29184634199987,
+      "completed_seconds": 45.45074179299991,
+      "trigger_frame": 211,
+      "video_held_seconds": 31.616
+    },
+    {
+      "clip": "reminder-02.wav",
+      "start_seconds": 49.494875329000024,
+      "completed_seconds": 52.05434840199996,
+      "trigger_frame": 247,
+      "video_held_seconds": 38.819
+    }
+  ],
+  "start_intervals_seconds": [
+    7.20307343200011,
+    7.203671471000007,
+    7.204548327999873,
+    7.2030289870001525
+  ],
+  "display_changes": [
+    {
+      "elapsed_seconds": 0.0016446749998522137,
+      "face": "uncertain"
+    },
+    {
+      "elapsed_seconds": 0.20373444799997742,
+      "face": "happy"
+    },
+    {
+      "elapsed_seconds": 10.705024629000036,
+      "face": "angry"
+    },
+    {
+      "elapsed_seconds": 49.72474683999985,
+      "face": "happy"
+    },
+    {
+      "elapsed_seconds": 57.12805325699992,
+      "face": "uncertain"
+    },
+    {
+      "elapsed_seconds": 57.92876768199994,
+      "face": "asleep"
+    },
+    {
+      "elapsed_seconds": 67.33434399599992,
+      "face": "uncertain"
+    },
+    {
+      "elapsed_seconds": 67.534458889,
+      "face": "happy"
+    },
+    {
+      "elapsed_seconds": 113.16482511599997,
+      "face": "uncertain"
+    }
+  ],
+  "checks": {
+    "frame_count_matches_metadata": true,
+    "frame_numbers_contiguous": true,
+    "monotonic_capture_times": true,
+    "trigger_rows_meet_video_score_and_persistence": true,
+    "all_csv_actions_have_events": true,
+    "cooldown_satisfied": true,
+    "all_audio_completed_without_overlap": true,
+    "clip_order_correct": true,
+    "video_streak_recomputed": true,
+    "model_hash_matches_local": true,
+    "audio_hashes_match_local": true
+  },
+  "log_sha256": {
+    "events.jsonl": "336cf18f4144a9161be75347ccff32dca4f422c563283404c10b33e5e1bbde58",
+    "metadata.json": "ed211f1cf7cc36e8edf3daf68d9e1b1b633d638d975c1cda371112d3bd6b3da8",
+    "predictions.csv": "71b298cb43a08d6f14886755c766b7aef3218c511f911cd0346ad1b63c846128"
+  },
+  "scope": "Checks establish controller behavior against logged predictions, not classifier accuracy or synchronization to the phone video. Model and audio hashes match local assets; deployed source code was not hashed by the runner."
+}

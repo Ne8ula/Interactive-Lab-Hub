@@ -1,0 +1,46 @@
+{
+  "source": "Three ElevenLabs clips; voice: Theo Silk - British Deep Sleep & Meditation",
+  "playback_order": "01,02,03,repeat",
+  "conversion": "Mono 44100 Hz PCM 16-bit WAV; no trimming or gain adjustment",
+  "speaker": "Leviathan V2 connected to Pi Bluetooth; audible playback documented in the Part B demonstrations on 2026-11-10",
+  "clips": [
+    {
+      "order": 1,
+      "original_filename": "ElevenLabs_2026-11-10T21_50_29_Theo Silk - British Deep Sleep & Meditation_pvc_s100_sim75_v4.mp3",
+      "mp3": "reminder-01.mp3",
+      "wav": "reminder-01.wav",
+      "duration_seconds": 3.0040816326530613,
+      "original_sha256": "ddfcb38c8518e866a5a8161fd908e2992a22cfb150c52be9d896510ccfd8213e",
+      "wav_sha256": "0d49cd36b1a5abb08b305183011d419363505b7baa18d8959fc6d2d3d73eda77"
+    },
+    {
+      "order": 2,
+      "original_filename": "ElevenLabs_2026-11-10T21_52_25_Theo Silk - British Deep Sleep & Meditation_pvc_s100_sim75_v4.mp3",
+      "mp3": "reminder-02.mp3",
+      "wav": "reminder-02.wav",
+      "duration_seconds": 2.3510204081632655,
+      "original_sha256": "33343dcc2e2e101951aed6b6a18244976b93ae383f26daadee7ea96607281d84",
+      "wav_sha256": "0dd124ae5f6b02ba1d18a2ad59ca70eb56a281bcf4178f656cffcbb6e2dd4668"
+    },
+    {
+      "order": 3,
+      "original_filename": "ElevenLabs_2026-11-10T21_53_30_Theo Silk - British Deep Sleep & Meditation_pvc_s100_sim75_v4.mp3",
+      "mp3": "reminder-03.mp3",
+      "wav": "reminder-03.wav",
+      "duration_seconds": 2.27265306122449,
+      "original_sha256": "ad78e16c504122f5748612284bb1b157a7a70927555ab46f675c84d4262b65b2",
+      "wav_sha256": "a38260e2ba1baa0a76aedfdcc7b737f74abc5ffd1bb8f12078961d99f09d8880"
+    }
+  ],
+  "beep": {
+    "description": "Three locally synthesized 880 Hz tones, 0.3 seconds each, 0.15-second gaps, 36 percent peak amplitude, 10 ms edge ramps",
+    "duration_seconds": 1.2,
+    "gain_db_relative_to_original_beep": 6.020599913279624,
+    "sha256": "861b40ca94dcc857beca580fa13ad0aa40a3cfc85526e19ec86b2f67eeb9a18b",
+    "beep_mode_defaults": {
+      "persistence_seconds": 5,
+      "cooldown_seconds": 0,
+      "repeat": "After previous clip finishes while qualifying VIDEO continues"
+    }
+  }
+}

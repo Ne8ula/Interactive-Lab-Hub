@@ -1,0 +1,17 @@
+* text=auto
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.png binary
+*.jpg binary
+*.stl binary
+*.tflite binary
+# Preserve recorded evidence bytes so published files retain their checksums.
+evidence/**/*.csv -text whitespace=cr-at-eol
+evidence/**/*.json -text whitespace=cr-at-eol
+evidence/**/*.jsonl -text whitespace=cr-at-eol
+evidence/**/*.txt -text whitespace=cr-at-eol

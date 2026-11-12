@@ -1,0 +1,21 @@
+{"utc": "2026-11-11T01:19:26.851862+00:00", "elapsed_seconds": 0.0011582089998682932, "event": "run_started", "mode": "voice"}
+{"utc": "2026-11-11T01:19:26.852352+00:00", "elapsed_seconds": 0.0016446749998522137, "event": "display_changed", "face": "uncertain"}
+{"utc": "2026-11-11T01:19:27.054433+00:00", "elapsed_seconds": 0.20373444799997742, "event": "display_changed", "face": "happy", "trigger_frame": 0, "prediction": "WORK"}
+{"utc": "2026-11-11T01:19:37.555722+00:00", "elapsed_seconds": 10.705024629000036, "event": "display_changed", "face": "angry", "trigger_frame": 53, "prediction": "VIDEO"}
+{"utc": "2026-11-11T01:19:47.531244+00:00", "elapsed_seconds": 20.68055311099988, "event": "audio_started", "clip": "reminder-01.wav", "trigger_frame": 103}
+{"utc": "2026-11-11T01:19:50.690145+00:00", "elapsed_seconds": 23.83945208, "event": "audio_completed", "clip": "reminder-01.wav"}
+{"utc": "2026-11-11T01:19:54.734315+00:00", "elapsed_seconds": 27.88362654299999, "event": "audio_started", "clip": "reminder-02.wav", "trigger_frame": 139}
+{"utc": "2026-11-11T01:19:57.293187+00:00", "elapsed_seconds": 30.442495130999987, "event": "audio_completed", "clip": "reminder-02.wav"}
+{"utc": "2026-11-11T01:20:01.937989+00:00", "elapsed_seconds": 35.087298014, "event": "audio_started", "clip": "reminder-03.wav", "trigger_frame": 175}
+{"utc": "2026-11-11T01:20:04.496547+00:00", "elapsed_seconds": 37.645858137999994, "event": "audio_completed", "clip": "reminder-03.wav"}
+{"utc": "2026-11-11T01:20:09.142538+00:00", "elapsed_seconds": 42.29184634199987, "event": "audio_started", "clip": "reminder-01.wav", "trigger_frame": 211}
+{"utc": "2026-11-11T01:20:12.301434+00:00", "elapsed_seconds": 45.45074179299991, "event": "audio_completed", "clip": "reminder-01.wav"}
+{"utc": "2026-11-11T01:20:16.345566+00:00", "elapsed_seconds": 49.494875329000024, "event": "audio_started", "clip": "reminder-02.wav", "trigger_frame": 247}
+{"utc": "2026-11-11T01:20:16.575446+00:00", "elapsed_seconds": 49.72474683999985, "event": "display_changed", "face": "happy", "trigger_frame": 248, "prediction": "WORK"}
+{"utc": "2026-11-11T01:20:18.905022+00:00", "elapsed_seconds": 52.05434840199996, "event": "audio_completed", "clip": "reminder-02.wav"}
+{"utc": "2026-11-11T01:20:23.978752+00:00", "elapsed_seconds": 57.12805325699992, "event": "display_changed", "face": "uncertain", "trigger_frame": 285, "prediction": "WORK"}
+{"utc": "2026-11-11T01:20:24.779465+00:00", "elapsed_seconds": 57.92876768199994, "event": "display_changed", "face": "asleep", "trigger_frame": 289, "prediction": "NEUTRAL"}
+{"utc": "2026-11-11T01:20:34.185042+00:00", "elapsed_seconds": 67.33434399599992, "event": "display_changed", "face": "uncertain", "trigger_frame": 336, "prediction": "NEUTRAL"}
+{"utc": "2026-11-11T01:20:34.385156+00:00", "elapsed_seconds": 67.534458889, "event": "display_changed", "face": "happy", "trigger_frame": 337, "prediction": "WORK"}
+{"utc": "2026-11-11T01:21:20.015524+00:00", "elapsed_seconds": 113.16482511599997, "event": "display_changed", "face": "uncertain", "trigger_frame": 565, "prediction": "WORK"}
+{"utc": "2026-11-11T01:21:20.543896+00:00", "elapsed_seconds": 113.69320469800005, "event": "run_stopped_by_user", "frames": 568}

@@ -1,0 +1,55 @@
+{
+  "source_filename": "IMG_8368.mov",
+  "source_sha256": "d92ea769d80ac4eed5fe0bad9c61dc79360ef20c1e336287d17eb21e87680918",
+  "saved_file": "display-demo.mp4",
+  "saved_sha256": "1df3fd478514f9c6339753f7b24907eb5a32d250a5449d3528656a4c1cc614f6",
+  "conversion": "Remuxed video and audio to MP4 without re-encoding, trimming, or speed changes.",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 720,
+        "height": 1280,
+        "nb_frames": "1815"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "nb_frames": "2700"
+      }
+    ],
+    "format": {
+      "duration": "62.653333",
+      "size": "18667288"
+    }
+  },
+  "reported_pi_run": "/home/ne8ula/a4-shelf-watcher/runs/part-b/20261110-184220-810003-voice",
+  "visual_review": "Phone video shows editor, video playback, desktop, and an angry physical display around 25-26 seconds. Three photographs separately show happy, angry, and asleep faces. Phone and Pi clocks are separate.",
+  "pi_logs_status": "Imported and checked; see display-run/ and run-summary.json",
+  "photographs": [
+    {
+      "source_filename": "IMG_8365.jpg",
+      "saved_file": "display-happy.webp",
+      "sha256": "25def50d9a8642c5ad42320b40e3458fdfaf28b4fff9fb163269e26f22eca1b5",
+      "source_url": "https://media.discordapp.net/attachments/1128965314198126612/1569859161112444938/IMG_8365.jpg",
+      "note": "Downloaded from Discord media link as its 767x1024 WebP rendition; no local image edits."
+    },
+    {
+      "source_filename": "IMG_8366.jpg",
+      "saved_file": "display-angry.webp",
+      "sha256": "76bcb8184c00f3f9c9149aa1fd196963b55244c9d011a9e0a3a99247bb4e1c14",
+      "source_url": "https://media.discordapp.net/attachments/1128965314198126612/1569859160840081458/IMG_8366.jpg",
+      "note": "Downloaded from Discord media link as its 767x1024 WebP rendition; no local image edits."
+    },
+    {
+      "source_filename": "IMG_8367.jpg",
+      "saved_file": "display-asleep.webp",
+      "sha256": "b5e7ace0b83f63c0e9850761db537f89a400a5f90c93a5a02b9a15e783182d0e",
+      "source_url": "https://media.discordapp.net/attachments/1128965314198126612/1569859160416194561/IMG_8367.jpg",
+      "note": "Downloaded from Discord media link as its 767x1024 WebP rendition; no local image edits."
+    }
+  ]
+}

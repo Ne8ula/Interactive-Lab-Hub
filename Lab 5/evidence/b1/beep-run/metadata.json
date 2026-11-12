@@ -1,0 +1,53 @@
+{
+  "started_utc": "2026-11-10T22:06:04.462530+00:00",
+  "settings": {
+    "mode": "beep",
+    "audio_test": false,
+    "model": "/home/ne8ula/a4-shelf-watcher/models/a4-pi-v2/model.tflite",
+    "labels": "/home/ne8ula/a4-shelf-watcher/models/a4-pi-v2/labels.txt",
+    "audio_dir": "/home/ne8ula/a4-shelf-watcher/assets/audio",
+    "output": "/home/ne8ula/a4-shelf-watcher/runs/part-b",
+    "camera": 0,
+    "seconds": 180.0,
+    "fps": 5,
+    "start_delay": 10,
+    "persistence": 5,
+    "cooldown": 0,
+    "threshold": 0.85,
+    "max_gap": 3
+  },
+  "model_sha256": "aa7bf8402ce755014114dbbc298ee6f3b08e404507235dde72af2735c6f3a513",
+  "tensors": {
+    "labels": [
+      "WORK",
+      "VIDEO",
+      "NEUTRAL"
+    ],
+    "input_shape": [
+      1,
+      224,
+      224,
+      3
+    ],
+    "input_dtype": "<class 'numpy.uint8'>",
+    "input_quantization": [
+      0.007843137718737125,
+      127
+    ],
+    "output_dtype": "<class 'numpy.uint8'>",
+    "output_quantization": [
+      0.00390625,
+      0
+    ]
+  },
+  "player": "/usr/bin/paplay",
+  "audio_sha256": {
+    "beep.wav": "861b40ca94dcc857beca580fa13ad0aa40a3cfc85526e19ec86b2f67eeb9a18b"
+  },
+  "video_note": "Silent camera MP4. Phone recording with microphone is needed to demonstrate audible output.",
+  "timing_note": "MP4 is constant FPS; CSV elapsed_seconds and capture_utc preserve actual capture timing.",
+  "status": "stopped_by_user",
+  "capture_started_utc": "2026-11-10T22:06:15.537834+00:00",
+  "finished_utc": "2026-11-10T22:07:16.986875+00:00",
+  "frames": 306
+}

@@ -1,0 +1,28 @@
+start_frame,end_frame,expected,scene
+0,149,WORK,Editor and editor dialogs
+150,150,TRANSITION,Editor and video window overlap
+151,209,VIDEO,Windowed video platform
+210,216,TRANSITION,Work window over video
+217,221,VIDEO,Windowed video platform
+222,247,WORK,Editor
+248,268,NEUTRAL,Desktop wallpaper including exposure settling
+269,270,TRANSITION,Desktop to video loading
+271,337,VIDEO,Video platform and player layout changes
+338,400,VIDEO,Fullscreen video including player loading and bright scenes
+401,462,WORK,Editor
+463,463,TRANSITION,Editor and video overlap
+464,537,VIDEO,Fullscreen video
+538,542,TRANSITION,Overexposed switch to white document
+543,579,WORK,White document confirmed WORK by user
+580,581,WORK,Switch between white document and editor
+582,608,WORK,Editor
+609,614,NEUTRAL,Wallpaper with small terminal confirmed NEUTRAL by user
+615,699,WORK,Editor
+700,700,TRANSITION,Editor remnants over wallpaper
+701,709,NEUTRAL,Wallpaper with small terminal confirmed NEUTRAL by user
+710,733,WORK,Editor
+734,738,TRANSITION,Overexposed switch to white document
+739,786,WORK,White document confirmed WORK by user
+787,789,TRANSITION,Document to video platform loading
+790,883,VIDEO,Video platform browsing and windowed playback
+884,896,WORK,Editor

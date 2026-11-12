@@ -1,0 +1,49 @@
+{
+  "source_filename": "IMG_8362.mov",
+  "source_sha256": "e074c33c16318b7db93cb4bbe57b406f48d01d727c85562265a2275170d6665a",
+  "saved_file": "beep-demo.mp4",
+  "saved_sha256": "f5566cc9411dc4d1d2e2ce8c0e0099dae0b6112688e1244c9ca29dae1f34eed8",
+  "conversion": "Remuxed video and audio to MP4 without re-encoding, trimming, or speed changes.",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "nb_frames": "1737",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "nb_frames": "2581"
+      }
+    ],
+    "format": {
+      "duration": "59.895000",
+      "size": "17887962"
+    }
+  },
+  "user_report": "beep worked perfectly",
+  "reported_pi_run": "/home/ne8ula/a4-shelf-watcher/runs/part-b/20261110-170604-462079-beep",
+  "pi_logs_status": "Imported and checked; see beep-run/ and run-summary.json",
+  "audio_check": {
+    "method": "880 Hz Goertzel energy check on 16 kHz mono PCM, 20 ms windows; tone-energy ratio > 0.30 and normalized RMS > 0.002; retained intervals longer than 0.08 seconds",
+    "approximate_phone_video_groups_seconds": [
+      [
+        27.2,
+        34.72
+      ],
+      [
+        50.66,
+        58.16
+      ]
+    ],
+    "interpretation": "Repeated tones matching the configured beep frequency are present. This does not independently establish classifier-trigger timing or the physical audio route."
+  }
+}

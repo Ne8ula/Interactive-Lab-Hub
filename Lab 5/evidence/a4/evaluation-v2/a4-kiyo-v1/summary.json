@@ -1,0 +1,68 @@
+{
+  "evaluated_utc": "2026-11-10T21:17:40.879726+00:00",
+  "model": "a4-kiyo-v1",
+  "model_sha256": "c6f5bb6820df847393111e9923dd1f5c969faab0859b57bde1a580cca869c44a",
+  "tensors": {
+    "labels": [
+      "WORK",
+      "VIDEO",
+      "NEUTRAL"
+    ],
+    "input_shape": [
+      1,
+      224,
+      224,
+      3
+    ],
+    "input_dtype": "<class 'numpy.uint8'>",
+    "input_quantization": [
+      0.007843137718737125,
+      127
+    ],
+    "output_dtype": "<class 'numpy.uint8'>",
+    "output_quantization": [
+      0.00390625,
+      0
+    ]
+  },
+  "by_expected_class": {
+    "WORK": {
+      "frames": 14,
+      "correct": 14,
+      "predictions": {
+        "WORK": 14,
+        "VIDEO": 0,
+        "NEUTRAL": 0
+      },
+      "top_score_min": 0.703125,
+      "top_score_max": 0.8671875
+    },
+    "VIDEO": {
+      "frames": 15,
+      "correct": 15,
+      "predictions": {
+        "WORK": 0,
+        "VIDEO": 15,
+        "NEUTRAL": 0
+      },
+      "top_score_min": 0.6171875,
+      "top_score_max": 0.99609375
+    },
+    "NEUTRAL": {
+      "frames": 15,
+      "correct": 9,
+      "predictions": {
+        "WORK": 4,
+        "VIDEO": 2,
+        "NEUTRAL": 9
+      },
+      "top_score_min": 0.51953125,
+      "top_score_max": 0.9609375
+    }
+  },
+  "total_frames": 44,
+  "correct_frames": 38,
+  "capture_sessions": 3,
+  "median_invoke_seconds": 0.029964746499899775,
+  "note": "Three short correlated test scenes, not a generalization accuracy estimate. Ground truth is the operator-selected scene label. Inputs were preprocessed during capture. Timing excludes image loading and preprocessing. The neutral scene repeats the training wallpaper."
+}

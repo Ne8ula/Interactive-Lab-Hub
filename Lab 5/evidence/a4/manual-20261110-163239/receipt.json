@@ -1,0 +1,35 @@
+{
+  "original_files": {
+    "camera.mp4": {
+      "sha256": "8b73b8ce8fbf9fea1dee231d195cd43c8d818b074e9444024b53a1c1b2742899",
+      "bytes": 25401050
+    },
+    "predictions.csv": {
+      "sha256": "f11f0084d8c3f6c6b657cb5282c6572fdfa6f2445d271457077b6c7b6be04402",
+      "bytes": 59408
+    }
+  },
+  "review_video": {
+    "sha256": "1415e0a6f5ddfae1ec847f1654dd34267a3755540c878e5660eb5b4ea424f2f8",
+    "bytes": 17292752,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 640,
+          "height": 544,
+          "r_frame_rate": "5/1",
+          "duration": "179.400000",
+          "nb_frames": "897"
+        }
+      ]
+    },
+    "conversion": "Original MPEG-4 Part 2 transcoded to H.264 CRF 20 / yuv420p for playback; no trimming, reordering, or frame-rate change."
+  },
+  "recording_date": "2026-11-10",
+  "capture_first_utc": "2026-11-10T21:33:32.118157+00:00",
+  "capture_last_utc": "2026-11-10T21:36:31.439006+00:00",
+  "model_attribution": "User ran provided recorder pointing at a4-pi-v2/model.tflite. This run CSV does not record the loaded model hash; no independent run-specific hash verification."
+}

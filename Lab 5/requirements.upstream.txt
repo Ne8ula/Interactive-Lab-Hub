@@ -1,0 +1,7 @@
+# Course dependency reference, not verified on this Pi OS/Python combination.
+# Source: IRL-CT/Interactive-Lab-Hub Fall2025 Lab 5/requirements.txt
+mediapipe==0.10.18
+opencv-python==4.11.0.86
+pip-chill==1.0.3
+teachable-machine-lite==1.2.0.2
+torchvision==0.24.0

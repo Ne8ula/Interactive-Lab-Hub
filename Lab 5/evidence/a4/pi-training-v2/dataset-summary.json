@@ -1,0 +1,49 @@
+﻿{
+    "camera":  "Pi-connected USB webcam, /dev/video0",
+    "crop":  "640:400:0:0",
+    "preprocessing":  "BGR camera; crop; aspect-fit INTER_AREA; black pad 224x224; PNG",
+    "counts":  {
+                   "WORK":  184,
+                   "VIDEO":  163,
+                   "NEUTRAL":  200
+               },
+    "independent_test_images":  0,
+    "note":  "Adjacent frames are correlated; counts do not measure diversity or accuracy.",
+    "sessions":  [
+                     {
+                         "session":  "20261110T210001954582Z-work-browse-01",
+                         "label":  "WORK",
+                         "frames":  149,
+                         "started_utc":  "2026-11-10T21:00:01.955603+00:00",
+                         "finished_utc":  "2026-11-10T21:00:47.358646+00:00"
+                     },
+                     {
+                         "session":  "20261110T210107903126Z-work-browse-02",
+                         "label":  "WORK",
+                         "frames":  35,
+                         "started_utc":  "2026-11-10T21:01:07.903875+00:00",
+                         "finished_utc":  "2026-11-10T21:01:18.344455+00:00"
+                     },
+                     {
+                         "session":  "20261110T210215382620Z-video-browse-01",
+                         "label":  "VIDEO",
+                         "frames":  163,
+                         "started_utc":  "2026-11-10T21:02:15.383478+00:00",
+                         "finished_utc":  "2026-11-10T21:03:05.881602+00:00"
+                     },
+                     {
+                         "session":  "20261110T210350059622Z-desktop-01",
+                         "label":  "NEUTRAL",
+                         "frames":  107,
+                         "started_utc":  "2026-11-10T21:03:50.060420+00:00",
+                         "finished_utc":  "2026-11-10T21:04:20.530511+00:00"
+                     },
+                     {
+                         "session":  "20261110T210459862415Z-blank-01",
+                         "label":  "NEUTRAL",
+                         "frames":  93,
+                         "started_utc":  "2026-11-10T21:04:59.863114+00:00",
+                         "finished_utc":  "2026-11-10T21:05:25.325877+00:00"
+                     }
+                 ]
+}

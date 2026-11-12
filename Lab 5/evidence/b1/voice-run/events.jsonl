@@ -1,0 +1,7 @@
+{"utc": "2026-11-10T22:12:43.333573+00:00", "elapsed_seconds": 0.0012131890007367474, "event": "run_started", "mode": "voice"}
+{"utc": "2026-11-10T22:13:08.983323+00:00", "elapsed_seconds": 25.650980199000514, "event": "audio_started", "clip": "reminder-01.wav", "trigger_frame": 128}
+{"utc": "2026-11-10T22:13:12.347641+00:00", "elapsed_seconds": 29.015291978000278, "event": "audio_completed", "clip": "reminder-01.wav"}
+{"utc": "2026-11-10T22:13:24.190232+00:00", "elapsed_seconds": 40.8578874800005, "event": "audio_started", "clip": "reminder-02.wav", "trigger_frame": 204}
+{"utc": "2026-11-10T22:13:26.754247+00:00", "elapsed_seconds": 43.421926996000366, "event": "audio_completed", "clip": "reminder-02.wav"}
+{"utc": "2026-11-10T22:13:39.397440+00:00", "elapsed_seconds": 56.065093671000795, "event": "audio_started", "clip": "reminder-03.wav", "trigger_frame": 280}
+{"utc": "2026-11-10T22:13:41.961305+00:00", "elapsed_seconds": 58.62895801000013, "event": "audio_completed", "clip": "reminder-03.wav"}

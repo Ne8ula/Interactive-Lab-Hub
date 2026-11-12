@@ -1,0 +1,255 @@
+{
+  "beep": {
+    "run": "20261110-170604-462079-beep",
+    "status": "stopped_by_user",
+    "logged_frames": 306,
+    "mp4_frames": 307,
+    "camera_duration_seconds": 61.4,
+    "persistence_seconds": 5,
+    "cooldown_seconds": 0,
+    "audio_started_count": 11,
+    "audio_completed_count": 10,
+    "unfinished_clip_at_user_stop": "beep.wav",
+    "audio_starts": [
+      {
+        "clip": "beep.wav",
+        "elapsed_seconds": 15.64641334099997,
+        "trigger_frame": 78
+      },
+      {
+        "clip": "beep.wav",
+        "elapsed_seconds": 17.25260019899997,
+        "trigger_frame": 86
+      },
+      {
+        "clip": "beep.wav",
+        "elapsed_seconds": 18.853979738999442,
+        "trigger_frame": 94
+      },
+      {
+        "clip": "beep.wav",
+        "elapsed_seconds": 20.45515889299986,
+        "trigger_frame": 102
+      },
+      {
+        "clip": "beep.wav",
+        "elapsed_seconds": 22.056319233999602,
+        "trigger_frame": 110
+      },
+      {
+        "clip": "beep.wav",
+        "elapsed_seconds": 39.05772913199962,
+        "trigger_frame": 195
+      },
+      {
+        "clip": "beep.wav",
+        "elapsed_seconds": 40.66979422199984,
+        "trigger_frame": 203
+      },
+      {
+        "clip": "beep.wav",
+        "elapsed_seconds": 42.274151327000254,
+        "trigger_frame": 211
+      },
+      {
+        "clip": "beep.wav",
+        "elapsed_seconds": 43.867268569999396,
+        "trigger_frame": 219
+      },
+      {
+        "clip": "beep.wav",
+        "elapsed_seconds": 45.46816127500006,
+        "trigger_frame": 227
+      },
+      {
+        "clip": "beep.wav",
+        "elapsed_seconds": 59.86779390799984,
+        "trigger_frame": 299
+      }
+    ],
+    "checks": "CSV indices contiguous; metadata count matches CSV; model/audio hashes match local assets; triggers meet label, score and persistence conditions; cooldown and non-overlap checks pass. Player completion does not independently prove acoustic playback.",
+    "frame_count_note": "Beep MP4 has one extra final unlogged frame at manual interruption; analyze only CSV-matched frames.",
+    "source_sha256": {
+      "camera.mp4": "0d21dc56febcecb3de9ef23674e4803790a82e2f1ac9f06469a0cc28caacfa6a",
+      "metadata.json": "caab15c2fd5a6f821564b9e8ebd4ff70bea5b6aadac9eae0a3894ee368c7b7f4",
+      "events.jsonl": "da423ff67ed381d347bb3aaa5da62d51515f864b9dff8f19c24fa89147c25000",
+      "predictions.csv": "4e806a9845b3ae9104e02d0c7b38a247ea808bac9b14f35fdbe30bcb3379bad8"
+    }
+  },
+  "voice": {
+    "run": "20261110-171232-273241-voice",
+    "status": "stopped_by_user",
+    "logged_frames": 393,
+    "mp4_frames": 393,
+    "camera_duration_seconds": 78.6,
+    "persistence_seconds": 15.0,
+    "cooldown_seconds": 15.0,
+    "audio_started_count": 3,
+    "audio_completed_count": 3,
+    "unfinished_clip_at_user_stop": null,
+    "audio_starts": [
+      {
+        "clip": "reminder-01.wav",
+        "elapsed_seconds": 25.650980199000514,
+        "trigger_frame": 128
+      },
+      {
+        "clip": "reminder-02.wav",
+        "elapsed_seconds": 40.8578874800005,
+        "trigger_frame": 204
+      },
+      {
+        "clip": "reminder-03.wav",
+        "elapsed_seconds": 56.065093671000795,
+        "trigger_frame": 280
+      }
+    ],
+    "checks": "CSV indices contiguous; metadata count matches CSV; model/audio hashes match local assets; triggers meet label, score and persistence conditions; cooldown and non-overlap checks pass. Player completion does not independently prove acoustic playback.",
+    "frame_count_note": "CSV and MP4 frame counts match.",
+    "source_sha256": {
+      "camera.mp4": "226f68609481b1e82f5576b24ce18d985f771fdcc1d997aa236e77870588f3a8",
+      "metadata.json": "5f1dbf620b71df1258e6c50aa86549bca267a6e8c7ae8cb6accd0876026f00ad",
+      "events.jsonl": "b65517d0b30d73914db74b7940fc3017e9870e0a366967277fe398cb08b8a52f",
+      "predictions.csv": "54e739ce6cbd15b9cb05e1fc7f52ddbccef72546ab7ff794dd7e31414f8f14f9"
+    }
+  },
+  "display": {
+    "run": "20261110-184220-810003-voice",
+    "status": "stopped_by_user",
+    "logged_frames": 315,
+    "mp4_frames": 315,
+    "camera_duration_seconds": 63.0,
+    "elapsed_seconds": 65.460809206,
+    "persistence_seconds": 15,
+    "cooldown_seconds": 15,
+    "audio_started_count": 2,
+    "audio_completed_count": 2,
+    "audio_starts": [
+      {
+        "utc": "2026-11-10T23:42:57.236462+00:00",
+        "elapsed_seconds": 25.081517135999974,
+        "event": "audio_started",
+        "clip": "reminder-01.wav",
+        "trigger_frame": 117
+      },
+      {
+        "utc": "2026-11-10T23:43:12.447134+00:00",
+        "elapsed_seconds": 40.29218760699999,
+        "event": "audio_started",
+        "clip": "reminder-02.wav",
+        "trigger_frame": 189
+      }
+    ],
+    "display_changes": [
+      {
+        "utc": "2026-11-10T23:42:32.156854+00:00",
+        "elapsed_seconds": 0.0018930809999915255,
+        "event": "display_changed",
+        "face": "uncertain"
+      },
+      {
+        "utc": "2026-11-10T23:42:33.812771+00:00",
+        "elapsed_seconds": 1.6578191380000078,
+        "event": "display_changed",
+        "face": "happy",
+        "trigger_frame": 0,
+        "prediction": "WORK"
+      },
+      {
+        "utc": "2026-11-10T23:42:42.256059+00:00",
+        "elapsed_seconds": 10.101105931999996,
+        "event": "display_changed",
+        "face": "angry",
+        "trigger_frame": 42,
+        "prediction": "VIDEO"
+      },
+      {
+        "utc": "2026-11-10T23:43:16.129464+00:00",
+        "elapsed_seconds": 43.97452638399997,
+        "event": "display_changed",
+        "face": "happy",
+        "trigger_frame": 207,
+        "prediction": "WORK"
+      },
+      {
+        "utc": "2026-11-10T23:43:16.679435+00:00",
+        "elapsed_seconds": 44.52448474000002,
+        "event": "display_changed",
+        "face": "uncertain",
+        "trigger_frame": 210,
+        "prediction": "NEUTRAL"
+      },
+      {
+        "utc": "2026-11-10T23:43:17.076541+00:00",
+        "elapsed_seconds": 44.92159345100001,
+        "event": "display_changed",
+        "face": "angry",
+        "trigger_frame": 212,
+        "prediction": "VIDEO"
+      },
+      {
+        "utc": "2026-11-10T23:43:17.877007+00:00",
+        "elapsed_seconds": 45.72205667900002,
+        "event": "display_changed",
+        "face": "happy",
+        "trigger_frame": 216,
+        "prediction": "WORK"
+      },
+      {
+        "utc": "2026-11-10T23:43:21.680201+00:00",
+        "elapsed_seconds": 49.52524794600001,
+        "event": "display_changed",
+        "face": "uncertain",
+        "trigger_frame": 235,
+        "prediction": "NEUTRAL"
+      },
+      {
+        "utc": "2026-11-10T23:43:21.878756+00:00",
+        "elapsed_seconds": 49.72380441999999,
+        "event": "display_changed",
+        "face": "asleep",
+        "trigger_frame": 236,
+        "prediction": "NEUTRAL"
+      },
+      {
+        "utc": "2026-11-10T23:43:32.285542+00:00",
+        "elapsed_seconds": 60.130590352999974,
+        "event": "display_changed",
+        "face": "uncertain",
+        "trigger_frame": 288,
+        "prediction": "NEUTRAL"
+      },
+      {
+        "utc": "2026-11-10T23:43:32.485528+00:00",
+        "elapsed_seconds": 60.33057648299999,
+        "event": "display_changed",
+        "face": "happy",
+        "trigger_frame": 289,
+        "prediction": "WORK"
+      }
+    ],
+    "frame_counts_by_face": {
+      "happy": 90,
+      "angry": 169,
+      "uncertain": 4,
+      "asleep": 52
+    },
+    "checks": {
+      "frame_counts_match": true,
+      "all_faces_match_predictions": true,
+      "all_audio_starts_qualify": true,
+      "cooldown_met": true,
+      "all_audio_completed": true,
+      "no_overlap": true,
+      "display_events_match_rows": true,
+      "model_hash_matches": true
+    },
+    "source_sha256": {
+      "camera.mp4": "a3100559671c16e04cca07fae140a1bb431dcc53ba1e5f2c27d40d79fd8102b7",
+      "events.jsonl": "81cdab1bbc3e1670b67ad4d8d9cbf296adc008db9440555f11740ff7861347df",
+      "metadata.json": "23e5de8499e801cf2a8da60be94ae20bfe905d203711a8613812f8c93cd5745e",
+      "predictions.csv": "9db2a1333331d2a2564e339418bebd413f1055a7d13954ca507b5527028101a6"
+    },
+    "scope": "Checks verify controller/display behavior against predictions, not classifier accuracy. Phone and Pi clocks are separate."
+  }
+}

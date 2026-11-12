@@ -1,0 +1,56 @@
+{
+  "photos": [
+    {
+      "source_url": "https://media.discordapp.net/attachments/1128965314198126612/1569885869949587617/IMG_8378.jpg?ex=6af515a6&is=6af3c426&hm=c3ed59e1bda15379ff8919005fc94edb4e8ce7bc3ab4ac796d221dc2a41b3630&=&format=webp&width=767&height=1024",
+      "path": "evidence/part2/finished-build-8378.webp",
+      "bytes": 23028,
+      "sha256": "17b4e58b609a5b83ae3b9ed8e713c7113eea533fa556913ec4b00a102be3a228",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "webp",
+            "width": 767,
+            "height": 1024
+          }
+        ]
+      }
+    },
+    {
+      "source_url": "https://media.discordapp.net/attachments/1128965314198126612/1569885870352498748/IMG_8375.jpg?ex=6af515a6&is=6af3c426&hm=ae21e5e617ca0319d143437531288936a9eecb7b827cf05430edc94a366ac0aa&=&format=webp&width=767&height=1024",
+      "path": "evidence/part2/finished-build-8375.webp",
+      "bytes": 36600,
+      "sha256": "39d0bbdae8d1a533a01c23dc89659643c68b813a97327fa1742336e3faaddd16",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "webp",
+            "width": 767,
+            "height": 1024
+          }
+        ]
+      }
+    },
+    {
+      "source_url": "https://media.discordapp.net/attachments/1128965314198126612/1569885870679658577/IMG_8374.jpg?ex=6af515a6&is=6af3c426&hm=ef2d903726397ca281986d79580d125e2fdef4dfcc2157f2595abce5f97c2044&=&format=webp&width=767&height=1024",
+      "path": "evidence/part2/finished-build-8374.webp",
+      "bytes": 37232,
+      "sha256": "5cec7d6c95c2569063e1bc0e2122e42a0adff82ef147b888fbb7822e23b27ec5",
+      "media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "webp",
+            "width": 767,
+            "height": 1024
+          }
+        ]
+      }
+    }
+  ],
+  "processing": "Downloaded Discord WebP versions; no local image edits"
+}

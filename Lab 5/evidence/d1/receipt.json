@@ -1,0 +1,106 @@
+{
+  "recordings": [
+    {
+      "source": "C:\\Users\\alexx\\Downloads\\IMG_8370.mov",
+      "source_bytes": 48365311,
+      "source_sha256": "dc172f23cb6e29f68c06e2947d12204a876a6ace77f8ac1b0d170de4b43c0b64",
+      "source_media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 720,
+            "height": 1280
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "162.276667"
+        }
+      },
+      "deliverable": "evidence/d1/normal-walkthrough.mp4",
+      "deliverable_bytes": 48444576,
+      "deliverable_sha256": "4bbd5e6a6e3d656998712a23ddac088230f7951448cc407a2b7a4638431d28cf",
+      "deliverable_media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 720,
+            "height": 1280
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "162.282993"
+        }
+      },
+      "encoded_stream_sha256_matches": {
+        "0:v:0": true,
+        "0:a:0": true
+      },
+      "conversion": "FFmpeg stream-copy remux with faststart; no edits or re-encoding"
+    },
+    {
+      "source": "C:\\Users\\alexx\\Downloads\\IMG_8371.mov",
+      "source_bytes": 8289073,
+      "source_sha256": "92ece2ba93f949a2f1693bd897e8a8967274879f211a92397b46d121d94a7f06",
+      "source_media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 720,
+            "height": 1280
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "27.793333"
+        }
+      },
+      "deliverable": "evidence/d1/no-room-lighting.mp4",
+      "deliverable_bytes": 8302486,
+      "deliverable_sha256": "fb2afaa54ea02cda1a1e8910c3b1320c75f16d43b801b702039422e00b5dfd60",
+      "deliverable_media": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 720,
+            "height": 1280
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "44100",
+            "channels": 2
+          }
+        ],
+        "format": {
+          "duration": "27.793333"
+        }
+      },
+      "encoded_stream_sha256_matches": {
+        "0:v:0": true,
+        "0:a:0": true
+      },
+      "conversion": "FFmpeg stream-copy remux with faststart; no edits or re-encoding"
+    }
+  ]
+}

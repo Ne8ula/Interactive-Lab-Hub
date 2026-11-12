@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-10T20:53:21.225339+00:00",
+  "model_sha256": "c6f5bb6820df847393111e9923dd1f5c969faab0859b57bde1a580cca869c44a",
+  "crop": "",
+  "model": {
+    "labels": [
+      "WORK",
+      "VIDEO",
+      "NEUTRAL"
+    ],
+    "input_shape": [
+      1,
+      224,
+      224,
+      3
+    ],
+    "input_dtype": "<class 'numpy.uint8'>",
+    "input_quantization": [
+      0.007843137718737125,
+      127
+    ],
+    "output_dtype": "<class 'numpy.uint8'>",
+    "output_quantization": [
+      0.00390625,
+      0
+    ]
+  },
+  "mode": "live",
+  "note": "invoke_seconds excludes capture, preprocessing, file I/O and display."
+}

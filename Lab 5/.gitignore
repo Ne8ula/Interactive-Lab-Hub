@@ -1,0 +1,48 @@
+# Local environments and caches
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+/runs/
+/tmp/
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+config/local.json
+# Raw monitor captures and working media stay local; publish selected evidence only.
+data/raw/
+data/processed/
+evidence/private/
+logs/
+upstream/
+*.mp4
+*.mov
+*.avi
+*.zip
+# Selected A1 submission recordings (raw working media remains ignored).
+!evidence/a1/objects.mp4
+!evidence/a1/terminal.mp4
+# Selected A2 submission recording.
+!evidence/a2/hand-tracking.mp4
+# Temporary CAD and slicing projects
+*.gcode
+*.3mf
+
+# Selected A4 manual switching test, with matching reviewed log.
+!evidence/a4/manual-20261110-163239/camera-review.mp4
+
+# Selected Part B phone demonstration, preserving speaker audio.
+!evidence/b1/beep-demo.mp4
+
+!evidence/b1/voice-demo.mp4
+!evidence/b1/display-demo.mp4
+
+# Selected Part D narrated characterization recordings.
+!evidence/d1/normal-walkthrough.mp4
+!evidence/d1/no-room-lighting.mp4
+
+# Selected Part 2 finished-companion demonstration, retaining original audio.
+!evidence/part2/finished-companion.mp4

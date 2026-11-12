@@ -1,0 +1,2188 @@
+/home/ne8ula/lab5-a1/.venv-a1/lib/python3.11/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/ne8ula/lab5-a1/.venv-a1/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=MobileNet_V2_QuantizedWeights.IMAGENET1K_QNNPACK_V1`. You can also use `weights=MobileNet_V2_QuantizedWeights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/home/ne8ula/lab5-a1/.venv-a1/lib/python3.11/site-packages/torch/ao/quantization/utils.py:435: UserWarning: must run observer before calling calculate_qparams. Returning default values.
+  warnings.warn(
+/home/ne8ula/lab5-a1/.venv-a1/lib/python3.11/site-packages/torch/_utils.py:444: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  device=storage.device,
+read
+image (144, 176, 3)
+preprocessing finished
+26.26% coffeepot
+26.26% cup
+0.6681618771662113 fps
+read
+image (144, 176, 3)
+preprocessing finished
+45.16% coffeepot
+28.53% teapot
+read
+image (144, 176, 3)
+preprocessing finished
+40.85% teapot
+30.08% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+81.59% teapot
+9.57% cup
+2.749899251973219 fps
+read
+image (144, 176, 3)
+preprocessing finished
+43.04% teapot
+27.19% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+44.60% coffeepot
+32.84% cup
+read
+image (144, 176, 3)
+preprocessing finished
+51.79% teapot
+24.09% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+59.18% teapot
+9.43% cup
+read
+image (144, 176, 3)
+preprocessing finished
+72.04% teapot
+13.37% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+91.50% teapot
+2.70% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+75.16% teapot
+11.97% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+39.90% teapot
+15.92% chambered nautilus, pearly nautilus, nautilus
+7.214509677024015 fps
+read
+image (144, 176, 3)
+preprocessing finished
+59.96% teapot
+23.93% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+78.77% teapot
+3.69% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+69.09% teapot
+9.44% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+86.46% teapot
+4.72% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+44.03% cup
+32.42% teapot
+read
+image (144, 176, 3)
+preprocessing finished
+28.46% cup
+24.42% teapot
+read
+image (144, 176, 3)
+preprocessing finished
+35.53% cup
+16.52% coffee mug
+read
+image (144, 176, 3)
+preprocessing finished
+62.25% teapot
+15.69% coffeepot
+7.175200820281218 fps
+read
+image (144, 176, 3)
+preprocessing finished
+81.26% teapot
+11.10% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+81.32% teapot
+6.02% cup
+read
+image (144, 176, 3)
+preprocessing finished
+94.59% teapot
+2.40% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+65.67% teapot
+10.46% cup
+read
+image (144, 176, 3)
+preprocessing finished
+54.03% coffeepot
+29.29% teapot
+read
+image (144, 176, 3)
+preprocessing finished
+49.08% teapot
+16.81% cup
+read
+image (144, 176, 3)
+preprocessing finished
+72.76% teapot
+18.34% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+45.27% coffeepot
+38.85% teapot
+7.171204588280829 fps
+read
+image (144, 176, 3)
+preprocessing finished
+58.45% teapot
+23.33% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+51.39% teapot
+12.96% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+81.13% teapot
+8.16% pitcher, ewer
+read
+image (144, 176, 3)
+preprocessing finished
+60.20% teapot
+17.69% pitcher, ewer
+read
+image (144, 176, 3)
+preprocessing finished
+48.76% teapot
+16.70% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+85.52% teapot
+4.66% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+91.95% teapot
+3.69% coffeepot
+read
+image (144, 176, 3)
+preprocessing finished
+62.58% teapot
+18.39% coffeepot
+7.22235323340036 fps
+read
+image (144, 176, 3)
+preprocessing finished
+94.11% teapot
+1.29% piggy bank, penny bank
+read
+image (144, 176, 3)
+preprocessing finished
+84.81% teapot
+11.59% piggy bank, penny bank
+read
+image (144, 176, 3)
+preprocessing finished
+58.53% teapot
+27.22% piggy bank, penny bank
+read
+image (144, 176, 3)
+preprocessing finished
+57.36% teapot
+9.14% piggy bank, penny bank
+read
+image (144, 176, 3)
+preprocessing finished
+9.82% chambered nautilus, pearly nautilus, nautilus
+8.42% lighter, light, igniter, ignitor
+read
+image (144, 176, 3)
+preprocessing finished
+26.35% mosquito net
+9.02% conch
+read
+image (144, 176, 3)
+preprocessing finished
+6.77% umbrella
+4.99% prison, prison house
+read
+image (144, 176, 3)
+preprocessing finished
+22.95% umbrella
+6.74% window screen
+7.258198084780996 fps
+read
+image (144, 176, 3)
+preprocessing finished
+49.49% mosquito net
+6.76% window screen
+read
+image (144, 176, 3)
+preprocessing finished
+31.73% mosquito net
+6.86% window screen
+read
+image (144, 176, 3)
+preprocessing finished
+29.07% window screen
+8.54% mosquito net
+read
+image (144, 176, 3)
+preprocessing finished
+27.43% umbrella
+14.87% mosquito net
+read
+image (144, 176, 3)
+preprocessing finished
+14.74% umbrella
+14.74% vault
+read
+image (144, 176, 3)
+preprocessing finished
+12.65% mosquito net
+7.99% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+10.71% umbrella
+6.76% vault
+read
+image (144, 176, 3)
+preprocessing finished
+8.84% dam, dike, dyke
+8.84% vault
+7.339918919374148 fps
+read
+image (144, 176, 3)
+preprocessing finished
+21.58% umbrella
+13.63% vault
+read
+image (144, 176, 3)
+preprocessing finished
+26.95% vault
+19.84% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+20.11% umbrella
+8.03% mosquito net
+read
+image (144, 176, 3)
+preprocessing finished
+15.93% umbrella
+10.06% vault
+read
+image (144, 176, 3)
+preprocessing finished
+40.18% umbrella
+11.81% vault
+read
+image (144, 176, 3)
+preprocessing finished
+13.01% vault
+9.58% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+18.69% broom
+7.46% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+21.00% shovel
+3.90% bobsled, bobsleigh, bob
+7.359912964896426 fps
+read
+image (144, 176, 3)
+preprocessing finished
+23.90% umbrella
+5.17% broom
+read
+image (144, 176, 3)
+preprocessing finished
+14.85% car mirror
+10.93% mosquito net
+read
+image (144, 176, 3)
+preprocessing finished
+53.86% mouse, computer mouse
+10.00% table lamp
+read
+image (144, 176, 3)
+preprocessing finished
+24.42% mouse, computer mouse
+15.43% hand blower, blow dryer, blow drier, hair dryer, hair drier
+read
+image (144, 176, 3)
+preprocessing finished
+34.92% mouse, computer mouse
+29.96% table lamp
+read
+image (144, 176, 3)
+preprocessing finished
+85.48% mouse, computer mouse
+2.95% fountain pen
+read
+image (144, 176, 3)
+preprocessing finished
+32.08% seat belt, seatbelt
+17.39% joystick
+read
+image (144, 176, 3)
+preprocessing finished
+12.81% mouse, computer mouse
+8.09% soap dispenser
+7.169670764341935 fps
+read
+image (144, 176, 3)
+preprocessing finished
+23.72% mouse, computer mouse
+14.99% hand blower, blow dryer, blow drier, hair dryer, hair drier
+read
+image (144, 176, 3)
+preprocessing finished
+51.32% mouse, computer mouse
+12.94% joystick
+read
+image (144, 176, 3)
+preprocessing finished
+79.76% mouse, computer mouse
+3.20% switch, electric switch, electrical switch
+read
+image (144, 176, 3)
+preprocessing finished
+69.85% mouse, computer mouse
+8.19% lens cap, lens cover
+read
+image (144, 176, 3)
+preprocessing finished
+99.78% mouse, computer mouse
+0.03% CD player
+read
+image (144, 176, 3)
+preprocessing finished
+98.70% mouse, computer mouse
+0.14% knee pad
+read
+image (144, 176, 3)
+preprocessing finished
+98.60% mouse, computer mouse
+0.19% joystick
+read
+image (144, 176, 3)
+preprocessing finished
+96.25% mouse, computer mouse
+0.62% spatula
+7.196784502468675 fps
+read
+image (144, 176, 3)
+preprocessing finished
+96.90% mouse, computer mouse
+0.34% CD player
+read
+image (144, 176, 3)
+preprocessing finished
+99.07% mouse, computer mouse
+0.14% modem
+read
+image (144, 176, 3)
+preprocessing finished
+98.68% mouse, computer mouse
+0.19% modem
+read
+image (144, 176, 3)
+preprocessing finished
+98.04% mouse, computer mouse
+0.29% mousetrap
+read
+image (144, 176, 3)
+preprocessing finished
+94.31% mouse, computer mouse
+1.76% spatula
+read
+image (144, 176, 3)
+preprocessing finished
+87.05% mouse, computer mouse
+2.21% spatula
+read
+image (144, 176, 3)
+preprocessing finished
+98.83% mouse, computer mouse
+0.14% lens cap, lens cover
+read
+image (144, 176, 3)
+preprocessing finished
+99.88% mouse, computer mouse
+0.02% crash helmet
+6.9732275898014375 fps
+read
+image (144, 176, 3)
+preprocessing finished
+76.13% mouse, computer mouse
+12.12% lighter, light, igniter, ignitor
+read
+image (144, 176, 3)
+preprocessing finished
+9.60% toilet tissue, toilet paper, bathroom tissue
+7.07% car mirror
+read
+image (144, 176, 3)
+preprocessing finished
+25.81% car mirror
+16.30% Loafer
+read
+image (144, 176, 3)
+preprocessing finished
+20.99% car mirror
+18.01% seat belt, seatbelt
+read
+image (144, 176, 3)
+preprocessing finished
+12.68% bannister, banister, balustrade, balusters, handrail
+9.34% window screen
+read
+image (144, 176, 3)
+preprocessing finished
+61.17% mosquito net
+5.28% vault
+read
+image (144, 176, 3)
+preprocessing finished
+41.44% mosquito net
+10.45% window screen
+read
+image (144, 176, 3)
+preprocessing finished
+29.18% umbrella
+13.57% vault
+7.034929314064436 fps
+read
+image (144, 176, 3)
+preprocessing finished
+10.74% bannister, banister, balustrade, balusters, handrail
+9.21% vault
+read
+image (144, 176, 3)
+preprocessing finished
+13.87% wallet, billfold, notecase, pocketbook
+11.90% window screen
+read
+image (144, 176, 3)
+preprocessing finished
+12.55% vault
+10.77% broom
+read
+image (144, 176, 3)
+preprocessing finished
+18.20% umbrella
+11.50% mosquito net
+read
+image (144, 176, 3)
+preprocessing finished
+24.23% umbrella
+20.79% vault
+read
+image (144, 176, 3)
+preprocessing finished
+10.44% bannister, banister, balustrade, balusters, handrail
+4.85% broom
+read
+image (144, 176, 3)
+preprocessing finished
+23.91% umbrella
+7.03% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+29.76% umbrella
+25.53% vault
+7.372579866572831 fps
+read
+image (144, 176, 3)
+preprocessing finished
+21.99% mosquito net
+8.78% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+10.35% mosquito net
+5.61% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+11.72% bannister, banister, balustrade, balusters, handrail
+7.40% chest
+read
+image (144, 176, 3)
+preprocessing finished
+38.64% bannister, banister, balustrade, balusters, handrail
+9.74% broom
+read
+image (144, 176, 3)
+preprocessing finished
+12.98% doormat, welcome mat
+11.14% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+11.11% bannister, banister, balustrade, balusters, handrail
+9.53% doormat, welcome mat
+read
+image (144, 176, 3)
+preprocessing finished
+20.68% mosquito net
+11.21% window screen
+read
+image (144, 176, 3)
+preprocessing finished
+51.10% umbrella
+12.88% vault
+7.375645998168971 fps
+read
+image (144, 176, 3)
+preprocessing finished
+14.32% umbrella
+12.29% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+51.58% mosquito net
+13.00% window screen
+read
+image (144, 176, 3)
+preprocessing finished
+37.17% lighter, light, igniter, ignitor
+23.48% matchstick
+read
+image (144, 176, 3)
+preprocessing finished
+7.99% seat belt, seatbelt
+6.86% lighter, light, igniter, ignitor
+read
+image (144, 176, 3)
+preprocessing finished
+87.83% lipstick, lip rouge
+8.84% candle, taper, wax light
+read
+image (144, 176, 3)
+preprocessing finished
+44.39% candle, taper, wax light
+32.68% lipstick, lip rouge
+read
+image (144, 176, 3)
+preprocessing finished
+49.44% candle, taper, wax light
+14.53% pinwheel
+read
+image (144, 176, 3)
+preprocessing finished
+22.45% saltshaker, salt shaker
+12.17% Christmas stocking
+7.26539280338265 fps
+read
+image (144, 176, 3)
+preprocessing finished
+62.63% saltshaker, salt shaker
+29.13% lipstick, lip rouge
+read
+image (144, 176, 3)
+preprocessing finished
+26.68% lipstick, lip rouge
+26.68% saltshaker, salt shaker
+read
+image (144, 176, 3)
+preprocessing finished
+79.64% birdhouse
+8.01% saltshaker, salt shaker
+read
+image (144, 176, 3)
+preprocessing finished
+76.75% birdhouse
+7.72% ocarina, sweet potato
+read
+image (144, 176, 3)
+preprocessing finished
+30.73% lipstick, lip rouge
+10.52% birdhouse
+read
+image (144, 176, 3)
+preprocessing finished
+33.51% birdhouse
+24.67% mailbox, letter box
+read
+image (144, 176, 3)
+preprocessing finished
+23.37% saltshaker, salt shaker
+17.21% lipstick, lip rouge
+read
+image (144, 176, 3)
+preprocessing finished
+40.15% birdhouse
+8.69% punching bag, punch bag, punching ball, punchball
+7.184115588392345 fps
+read
+image (144, 176, 3)
+preprocessing finished
+39.50% birdhouse
+8.54% motor scooter, scooter
+read
+image (144, 176, 3)
+preprocessing finished
+72.73% birdhouse
+2.92% church, church building
+read
+image (144, 176, 3)
+preprocessing finished
+42.07% birdhouse
+12.36% Christmas stocking
+read
+image (144, 176, 3)
+preprocessing finished
+21.62% birdhouse
+11.72% lipstick, lip rouge
+read
+image (144, 176, 3)
+preprocessing finished
+35.74% birdhouse
+26.32% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+30.11% lipstick, lip rouge
+25.83% missile
+read
+image (144, 176, 3)
+preprocessing finished
+27.98% lipstick, lip rouge
+24.01% missile
+read
+image (144, 176, 3)
+preprocessing finished
+39.19% lipstick, lip rouge
+18.23% missile
+7.18145866016604 fps
+read
+image (144, 176, 3)
+preprocessing finished
+62.11% umbrella
+13.44% lipstick, lip rouge
+read
+image (144, 176, 3)
+preprocessing finished
+35.26% missile
+30.25% projectile, missile
+read
+image (144, 176, 3)
+preprocessing finished
+77.82% lipstick, lip rouge
+7.83% missile
+read
+image (144, 176, 3)
+preprocessing finished
+23.15% missile
+23.15% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+69.69% lipstick, lip rouge
+8.17% church, church building
+read
+image (144, 176, 3)
+preprocessing finished
+23.03% missile
+23.03% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+40.66% Christmas stocking
+34.89% birdhouse
+read
+image (144, 176, 3)
+preprocessing finished
+79.86% umbrella
+2.75% pinwheel
+7.137965129636405 fps
+read
+image (144, 176, 3)
+preprocessing finished
+63.21% umbrella
+18.57% pinwheel
+read
+image (144, 176, 3)
+preprocessing finished
+81.76% lipstick, lip rouge
+3.28% birdhouse
+read
+image (144, 176, 3)
+preprocessing finished
+34.38% birdhouse
+29.50% saltshaker, salt shaker
+read
+image (144, 176, 3)
+preprocessing finished
+19.23% piggy bank, penny bank
+10.42% birdhouse
+read
+image (144, 176, 3)
+preprocessing finished
+25.67% lipstick, lip rouge
+11.94% candle, taper, wax light
+read
+image (144, 176, 3)
+preprocessing finished
+8.76% lipstick, lip rouge
+7.51% lighter, light, igniter, ignitor
+read
+image (144, 176, 3)
+preprocessing finished
+55.98% umbrella
+3.56% broom
+read
+image (144, 176, 3)
+preprocessing finished
+17.17% umbrella
+7.99% prison, prison house
+7.204731863704907 fps
+read
+image (144, 176, 3)
+preprocessing finished
+10.40% bannister, banister, balustrade, balusters, handrail
+7.66% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+9.81% prison, prison house
+6.20% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+16.40% bannister, banister, balustrade, balusters, handrail
+10.36% prison, prison house
+read
+image (144, 176, 3)
+preprocessing finished
+5.41% vault
+3.98% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+30.44% umbrella
+22.41% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+12.51% umbrella
+10.73% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+44.45% bannister, banister, balustrade, balusters, handrail
+7.08% vault
+read
+image (144, 176, 3)
+preprocessing finished
+19.71% bannister, banister, balustrade, balusters, handrail
+14.51% umbrella
+7.38403740164628 fps
+read
+image (144, 176, 3)
+preprocessing finished
+28.31% umbrella
+13.17% vault
+read
+image (144, 176, 3)
+preprocessing finished
+16.80% bannister, banister, balustrade, balusters, handrail
+5.75% vault
+read
+image (144, 176, 3)
+preprocessing finished
+15.39% mosquito net
+13.21% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+11.84% window screen
+10.16% mosquito net
+read
+image (144, 176, 3)
+preprocessing finished
+19.18% bannister, banister, balustrade, balusters, handrail
+4.83% broom
+read
+image (144, 176, 3)
+preprocessing finished
+13.23% bannister, banister, balustrade, balusters, handrail
+8.36% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+8.17% four-poster
+4.43% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+19.39% umbrella
+10.51% vault
+7.203426445985409 fps
+read
+image (144, 176, 3)
+preprocessing finished
+20.83% mosquito net
+13.16% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+18.36% umbrella
+8.54% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+21.91% dam, dike, dyke
+13.84% snowplow, snowplough
+read
+image (144, 176, 3)
+preprocessing finished
+24.89% toilet tissue, toilet paper, bathroom tissue
+15.72% candle, taper, wax light
+read
+image (144, 176, 3)
+preprocessing finished
+68.45% toilet tissue, toilet paper, bathroom tissue
+10.90% paper towel
+read
+image (144, 176, 3)
+preprocessing finished
+30.16% toilet tissue, toilet paper, bathroom tissue
+19.05% cup
+read
+image (144, 176, 3)
+preprocessing finished
+17.26% cup
+14.81% cradle
+read
+image (144, 176, 3)
+preprocessing finished
+42.77% cup
+14.65% coffee mug
+7.14457343906899 fps
+read
+image (144, 176, 3)
+preprocessing finished
+89.28% cup
+8.98% coffee mug
+read
+image (144, 176, 3)
+preprocessing finished
+56.98% cup
+41.95% coffee mug
+read
+image (144, 176, 3)
+preprocessing finished
+49.41% coffee mug
+49.41% cup
+read
+image (144, 176, 3)
+preprocessing finished
+48.04% coffee mug
+48.04% cup
+read
+image (144, 176, 3)
+preprocessing finished
+60.86% cup
+38.45% coffee mug
+read
+image (144, 176, 3)
+preprocessing finished
+53.65% coffee mug
+46.03% cup
+read
+image (144, 176, 3)
+preprocessing finished
+61.05% cup
+38.57% coffee mug
+6.994328567633981 fps
+read
+image (144, 176, 3)
+preprocessing finished
+61.01% cup
+38.54% coffee mug
+read
+image (144, 176, 3)
+preprocessing finished
+57.49% cup
+42.32% coffee mug
+read
+image (144, 176, 3)
+preprocessing finished
+64.36% coffee mug
+34.89% cup
+read
+image (144, 176, 3)
+preprocessing finished
+57.39% cup
+42.25% coffee mug
+read
+image (144, 176, 3)
+preprocessing finished
+79.26% cup
+19.98% coffee mug
+read
+image (144, 176, 3)
+preprocessing finished
+60.70% coffee mug
+38.34% cup
+read
+image (144, 176, 3)
+preprocessing finished
+68.08% cup
+31.67% coffee mug
+read
+image (144, 176, 3)
+preprocessing finished
+84.45% piggy bank, penny bank
+1.58% whistle
+7.02231041795331 fps
+read
+image (144, 176, 3)
+preprocessing finished
+10.13% pinwheel
+5.49% plunger, plumber's helper
+read
+image (144, 176, 3)
+preprocessing finished
+7.89% brassiere, bra, bandeau
+7.89% mortar
+read
+image (144, 176, 3)
+preprocessing finished
+3.60% axolotl, mud puppy, Ambystoma mexicanum
+3.09% pick, plectrum, plectron
+read
+image (144, 176, 3)
+preprocessing finished
+1.74% nematode, nematode worm, roundworm
+0.94% volcano
+read
+image (144, 176, 3)
+preprocessing finished
+9.26% bannister, banister, balustrade, balusters, handrail
+7.95% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+14.07% mosquito net
+10.36% dam, dike, dyke
+read
+image (144, 176, 3)
+preprocessing finished
+14.73% bannister, banister, balustrade, balusters, handrail
+5.88% vault
+read
+image (144, 176, 3)
+preprocessing finished
+32.51% window screen
+20.53% mosquito net
+7.365480194414213 fps
+read
+image (144, 176, 3)
+preprocessing finished
+4.38% mosquito net
+2.77% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+28.56% umbrella
+13.29% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+27.26% umbrella
+23.39% vault
+read
+image (144, 176, 3)
+preprocessing finished
+34.05% bannister, banister, balustrade, balusters, handrail
+13.59% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+33.18% vault
+24.43% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+42.68% bannister, banister, balustrade, balusters, handrail
+12.54% vault
+read
+image (144, 176, 3)
+preprocessing finished
+32.86% bannister, banister, balustrade, balusters, handrail
+7.11% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+19.43% dam, dike, dyke
+10.53% bannister, banister, balustrade, balusters, handrail
+7.340076269835002 fps
+read
+image (144, 176, 3)
+preprocessing finished
+31.74% bannister, banister, balustrade, balusters, handrail
+20.05% vault
+read
+image (144, 176, 3)
+preprocessing finished
+14.32% umbrella
+12.28% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+45.50% bannister, banister, balustrade, balusters, handrail
+13.37% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+20.89% bannister, banister, balustrade, balusters, handrail
+8.34% broom
+read
+image (144, 176, 3)
+preprocessing finished
+19.52% vault
+5.73% doormat, welcome mat
+read
+image (144, 176, 3)
+preprocessing finished
+11.53% mosquito net
+8.49% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+29.59% bannister, banister, balustrade, balusters, handrail
+4.71% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+26.61% bannister, banister, balustrade, balusters, handrail
+9.11% vault
+7.359322163262817 fps
+read
+image (144, 176, 3)
+preprocessing finished
+8.94% doormat, welcome mat
+7.67% mosquito net
+read
+image (144, 176, 3)
+preprocessing finished
+9.73% seat belt, seatbelt
+8.35% car mirror
+read
+image (144, 176, 3)
+preprocessing finished
+5.28% toilet tissue, toilet paper, bathroom tissue
+3.33% seat belt, seatbelt
+read
+image (144, 176, 3)
+preprocessing finished
+13.56% walking stick, walkingstick, stick insect
+9.99% tick
+read
+image (144, 176, 3)
+preprocessing finished
+19.51% submarine, pigboat, sub, U-boat
+16.74% stingray
+read
+image (144, 176, 3)
+preprocessing finished
+14.54% piggy bank, penny bank
+4.27% breastplate, aegis, egis
+read
+image (144, 176, 3)
+preprocessing finished
+21.33% seat belt, seatbelt
+13.48% coffee mug
+read
+image (144, 176, 3)
+preprocessing finished
+30.61% coffee mug
+10.48% candle, taper, wax light
+7.315748060165661 fps
+read
+image (144, 176, 3)
+preprocessing finished
+30.17% coffee mug
+10.33% candle, taper, wax light
+read
+image (144, 176, 3)
+preprocessing finished
+24.73% candle, taper, wax light
+11.50% coffee mug
+read
+image (144, 176, 3)
+preprocessing finished
+8.38% paper towel
+7.19% candle, taper, wax light
+read
+image (144, 176, 3)
+preprocessing finished
+11.98% ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin
+6.49% scale, weighing machine
+read
+image (144, 176, 3)
+preprocessing finished
+12.37% bulletproof vest
+7.82% jersey, T-shirt, tee shirt
+read
+image (144, 176, 3)
+preprocessing finished
+10.04% toilet tissue, toilet paper, bathroom tissue
+8.61% ping-pong ball
+read
+image (144, 176, 3)
+preprocessing finished
+63.36% bulletproof vest
+11.76% jersey, T-shirt, tee shirt
+read
+image (144, 176, 3)
+preprocessing finished
+24.08% bulletproof vest
+11.20% jersey, T-shirt, tee shirt
+7.276756058102264 fps
+read
+image (144, 176, 3)
+preprocessing finished
+11.24% viaduct
+9.64% iPod
+read
+image (144, 176, 3)
+preprocessing finished
+9.21% ping-pong ball
+6.78% ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin
+read
+image (144, 176, 3)
+preprocessing finished
+17.96% bulletproof vest
+13.23% viaduct
+read
+image (144, 176, 3)
+preprocessing finished
+17.54% bulletproof vest
+12.92% ping-pong ball
+read
+image (144, 176, 3)
+preprocessing finished
+15.38% ping-pong ball
+6.14% lampshade, lamp shade
+read
+image (144, 176, 3)
+preprocessing finished
+9.62% projector
+8.26% ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin
+read
+image (144, 176, 3)
+preprocessing finished
+7.60% bulletproof vest
+7.60% lampshade, lamp shade
+read
+image (144, 176, 3)
+preprocessing finished
+7.42% iPod
+5.47% seat belt, seatbelt
+7.158455974590518 fps
+read
+image (144, 176, 3)
+preprocessing finished
+18.90% iPod
+8.79% jersey, T-shirt, tee shirt
+read
+image (144, 176, 3)
+preprocessing finished
+94.50% bulletproof vest
+1.76% jersey, T-shirt, tee shirt
+read
+image (144, 176, 3)
+preprocessing finished
+15.39% ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin
+11.33% viaduct
+read
+image (144, 176, 3)
+preprocessing finished
+21.23% bulletproof vest
+7.27% jersey, T-shirt, tee shirt
+read
+image (144, 176, 3)
+preprocessing finished
+10.54% bannister, banister, balustrade, balusters, handrail
+10.54% toilet tissue, toilet paper, bathroom tissue
+read
+image (144, 176, 3)
+preprocessing finished
+16.87% guillotine
+4.96% toilet tissue, toilet paper, bathroom tissue
+read
+image (144, 176, 3)
+preprocessing finished
+14.76% ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin
+14.76% toilet seat
+read
+image (144, 176, 3)
+preprocessing finished
+52.74% toilet seat
+13.30% toilet tissue, toilet paper, bathroom tissue
+7.275528528230309 fps
+read
+image (144, 176, 3)
+preprocessing finished
+11.31% toilet seat
+9.70% mask
+read
+image (144, 176, 3)
+preprocessing finished
+18.78% candle, taper, wax light
+5.52% saltshaker, salt shaker
+read
+image (144, 176, 3)
+preprocessing finished
+6.62% chambered nautilus, pearly nautilus, nautilus
+5.68% mask
+read
+image (144, 176, 3)
+preprocessing finished
+20.60% mask
+8.22% pick, plectrum, plectron
+read
+image (144, 176, 3)
+preprocessing finished
+45.70% mask
+15.65% toilet tissue, toilet paper, bathroom tissue
+read
+image (144, 176, 3)
+preprocessing finished
+11.81% chambered nautilus, pearly nautilus, nautilus
+10.14% seat belt, seatbelt
+read
+image (144, 176, 3)
+preprocessing finished
+79.17% chambered nautilus, pearly nautilus, nautilus
+7.97% dough
+read
+image (144, 176, 3)
+preprocessing finished
+55.32% chambered nautilus, pearly nautilus, nautilus
+7.56% mouse, computer mouse
+7.259564267324376 fps
+read
+image (144, 176, 3)
+preprocessing finished
+12.04% Labrador retriever
+7.61% sea lion
+read
+image (144, 176, 3)
+preprocessing finished
+79.11% chambered nautilus, pearly nautilus, nautilus
+5.03% hermit crab
+read
+image (144, 176, 3)
+preprocessing finished
+70.59% chambered nautilus, pearly nautilus, nautilus
+4.49% sea lion
+read
+image (144, 176, 3)
+preprocessing finished
+38.05% chambered nautilus, pearly nautilus, nautilus
+6.06% sea lion
+read
+image (144, 176, 3)
+preprocessing finished
+11.78% seat belt, seatbelt
+7.44% great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias
+read
+image (144, 176, 3)
+preprocessing finished
+48.81% seat belt, seatbelt
+10.56% coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch
+read
+image (144, 176, 3)
+preprocessing finished
+39.89% seat belt, seatbelt
+15.92% odometer, hodometer, mileometer, milometer
+read
+image (144, 176, 3)
+preprocessing finished
+19.95% seat belt, seatbelt
+14.69% car mirror
+7.194912635706969 fps
+read
+image (144, 176, 3)
+preprocessing finished
+16.32% seat belt, seatbelt
+12.02% disk brake, disc brake
+read
+image (144, 176, 3)
+preprocessing finished
+67.13% seat belt, seatbelt
+10.69% car mirror
+read
+image (144, 176, 3)
+preprocessing finished
+30.95% seat belt, seatbelt
+14.40% car mirror
+read
+image (144, 176, 3)
+preprocessing finished
+27.79% car mirror
+27.79% seat belt, seatbelt
+read
+image (144, 176, 3)
+preprocessing finished
+39.51% seat belt, seatbelt
+29.09% car mirror
+read
+image (144, 176, 3)
+preprocessing finished
+17.66% oil filter
+13.01% cannon
+read
+image (144, 176, 3)
+preprocessing finished
+20.12% oil filter
+17.26% disk brake, disc brake
+read
+image (144, 176, 3)
+preprocessing finished
+13.64% axolotl, mud puppy, Ambystoma mexicanum
+10.04% chambered nautilus, pearly nautilus, nautilus
+7.229805704435885 fps
+read
+image (144, 176, 3)
+preprocessing finished
+18.97% axolotl, mud puppy, Ambystoma mexicanum
+10.28% eel
+read
+image (144, 176, 3)
+preprocessing finished
+46.79% oil filter
+16.02% car mirror
+read
+image (144, 176, 3)
+preprocessing finished
+42.74% car mirror
+7.93% crane
+read
+image (144, 176, 3)
+preprocessing finished
+14.90% toilet tissue, toilet paper, bathroom tissue
+6.93% ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin
+read
+image (144, 176, 3)
+preprocessing finished
+12.03% toilet tissue, toilet paper, bathroom tissue
+3.03% paintbrush
+read
+image (144, 176, 3)
+preprocessing finished
+14.89% toilet tissue, toilet paper, bathroom tissue
+9.41% spatula
+read
+image (144, 176, 3)
+preprocessing finished
+41.40% seat belt, seatbelt
+7.68% paper towel
+read
+image (144, 176, 3)
+preprocessing finished
+17.62% hamster
+11.13% bagel, beigel
+7.259614527523178 fps
+read
+image (144, 176, 3)
+preprocessing finished
+61.17% seat belt, seatbelt
+13.23% paper towel
+read
+image (144, 176, 3)
+preprocessing finished
+31.49% ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus
+14.65% candle, taper, wax light
+read
+image (144, 176, 3)
+preprocessing finished
+17.78% candle, taper, wax light
+11.23% chambered nautilus, pearly nautilus, nautilus
+read
+image (144, 176, 3)
+preprocessing finished
+38.38% candle, taper, wax light
+13.14% plate
+read
+image (144, 176, 3)
+preprocessing finished
+35.11% candle, taper, wax light
+10.31% plate
+read
+image (144, 176, 3)
+preprocessing finished
+12.18% chambered nautilus, pearly nautilus, nautilus
+8.97% sea lion
+read
+image (144, 176, 3)
+preprocessing finished
+25.56% chambered nautilus, pearly nautilus, nautilus
+18.82% guinea pig, Cavia cobaya
+read
+image (144, 176, 3)
+preprocessing finished
+28.92% bagel, beigel
+5.37% guinea pig, Cavia cobaya
+6.03067997494588 fps
+read
+image (144, 176, 3)
+preprocessing finished
+5.28% bagel, beigel
+4.53% candle, taper, wax light
+read
+image (144, 176, 3)
+preprocessing finished
+9.32% candle, taper, wax light
+4.34% pick, plectrum, plectron
+read
+image (144, 176, 3)
+preprocessing finished
+25.02% cup
+15.81% espresso
+read
+image (144, 176, 3)
+preprocessing finished
+35.51% cup
+19.25% espresso
+read
+image (144, 176, 3)
+preprocessing finished
+58.15% cup
+9.26% bucket, pail
+read
+image (144, 176, 3)
+preprocessing finished
+55.16% cup
+8.79% bucket, pail
+read
+image (144, 176, 3)
+preprocessing finished
+63.27% cup
+10.08% coffee mug
+read
+image (144, 176, 3)
+preprocessing finished
+29.69% cup
+16.09% espresso
+7.241003135986852 fps
+read
+image (144, 176, 3)
+preprocessing finished
+30.16% mortar
+25.88% espresso
+read
+image (144, 176, 3)
+preprocessing finished
+82.90% mortar
+4.52% cup
+read
+image (144, 176, 3)
+preprocessing finished
+72.72% mortar
+13.50% cup
+read
+image (144, 176, 3)
+preprocessing finished
+13.46% mask
+11.55% mortar
+read
+image (144, 176, 3)
+preprocessing finished
+3.98% pick, plectrum, plectron
+3.42% Band Aid
+read
+image (144, 176, 3)
+preprocessing finished
+0.87% nematode, nematode worm, roundworm
+0.75% jellyfish
+read
+image (144, 176, 3)
+preprocessing finished
+24.43% umbrella
+9.75% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+10.14% vault
+8.70% bannister, banister, balustrade, balusters, handrail
+7.403469087593866 fps
+read
+image (144, 176, 3)
+preprocessing finished
+8.19% ladle
+7.03% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+53.91% bannister, banister, balustrade, balusters, handrail
+10.01% vault
+read
+image (144, 176, 3)
+preprocessing finished
+20.60% dam, dike, dyke
+15.17% studio couch, day bed
+read
+image (144, 176, 3)
+preprocessing finished
+20.61% bannister, banister, balustrade, balusters, handrail
+6.06% studio couch, day bed
+read
+image (144, 176, 3)
+preprocessing finished
+25.96% bannister, banister, balustrade, balusters, handrail
+12.08% vault
+read
+image (144, 176, 3)
+preprocessing finished
+19.65% bannister, banister, balustrade, balusters, handrail
+7.84% doormat, welcome mat
+read
+image (144, 176, 3)
+preprocessing finished
+15.20% mosquito net
+6.07% strainer
+read
+image (144, 176, 3)
+preprocessing finished
+13.55% bannister, banister, balustrade, balusters, handrail
+13.55% mosquito net
+7.36784792838212 fps
+read
+image (144, 176, 3)
+preprocessing finished
+6.44% bannister, banister, balustrade, balusters, handrail
+6.44% tray
+read
+image (144, 176, 3)
+preprocessing finished
+26.39% mosquito net
+9.04% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+33.79% bannister, banister, balustrade, balusters, handrail
+7.31% vault
+read
+image (144, 176, 3)
+preprocessing finished
+16.68% bannister, banister, balustrade, balusters, handrail
+6.66% mosquito net
+read
+image (144, 176, 3)
+preprocessing finished
+24.46% bannister, banister, balustrade, balusters, handrail
+7.19% mosquito net
+read
+image (144, 176, 3)
+preprocessing finished
+26.00% mosquito net
+14.09% miniskirt, mini
+read
+image (144, 176, 3)
+preprocessing finished
+33.43% bannister, banister, balustrade, balusters, handrail
+3.92% vault
+read
+image (144, 176, 3)
+preprocessing finished
+47.62% bannister, banister, balustrade, balusters, handrail
+7.58% vault
+7.355313353051591 fps
+read
+image (144, 176, 3)
+preprocessing finished
+10.26% mosquito net
+6.48% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+26.71% dam, dike, dyke
+19.66% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+24.84% bannister, banister, balustrade, balusters, handrail
+4.61% shovel
+read
+image (144, 176, 3)
+preprocessing finished
+35.49% mosquito net
+26.13% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+52.70% mosquito net
+9.78% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+66.83% mosquito net
+10.64% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+15.11% umbrella
+11.13% snowplow, snowplough
+read
+image (144, 176, 3)
+preprocessing finished
+5.65% geyser
+3.57% umbrella
+7.333292246095073 fps
+read
+image (144, 176, 3)
+preprocessing finished
+9.29% car mirror
+9.29% snowplow, snowplough
+read
+image (144, 176, 3)
+preprocessing finished
+12.11% Shetland sheepdog, Shetland sheep dog, Shetland
+8.91% Bernese mountain dog
+read
+image (144, 176, 3)
+preprocessing finished
+8.62% breastplate, aegis, egis
+7.40% cuirass
+read
+image (144, 176, 3)
+preprocessing finished
+21.75% Shih-Tzu
+11.79% Tibetan terrier, chrysanthemum dog
+read
+image (144, 176, 3)
+preprocessing finished
+67.10% screw
+7.87% syringe
+read
+image (144, 176, 3)
+preprocessing finished
+11.77% syringe
+8.66% ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle
+read
+image (144, 176, 3)
+preprocessing finished
+27.04% lighter, light, igniter, ignitor
+17.08% syringe
+read
+image (144, 176, 3)
+preprocessing finished
+49.84% screw
+3.69% dumbbell
+7.220926429016586 fps
+read
+image (144, 176, 3)
+preprocessing finished
+8.35% tarantula
+8.35% hermit crab
+read
+image (144, 176, 3)
+preprocessing finished
+25.89% scorpion
+25.89% hermit crab
+read
+image (144, 176, 3)
+preprocessing finished
+10.08% conch
+8.65% hermit crab
+read
+image (144, 176, 3)
+preprocessing finished
+16.56% screw
+12.19% syringe
+read
+image (144, 176, 3)
+preprocessing finished
+22.80% screw
+6.70% dumbbell
+read
+image (144, 176, 3)
+preprocessing finished
+14.35% power drill
+12.31% oil filter
+read
+image (144, 176, 3)
+preprocessing finished
+29.76% syringe
+25.54% power drill
+read
+image (144, 176, 3)
+preprocessing finished
+27.82% syringe
+15.08% pill bottle
+7.2743708012587875 fps
+read
+image (144, 176, 3)
+preprocessing finished
+25.11% conch
+21.55% syringe
+read
+image (144, 176, 3)
+preprocessing finished
+49.59% pill bottle
+31.32% syringe
+read
+image (144, 176, 3)
+preprocessing finished
+46.04% syringe
+9.96% pill bottle
+read
+image (144, 176, 3)
+preprocessing finished
+26.92% syringe
+10.75% pill bottle
+read
+image (144, 176, 3)
+preprocessing finished
+37.52% syringe
+14.97% pill bottle
+read
+image (144, 176, 3)
+preprocessing finished
+25.44% motor scooter, scooter
+16.07% pill bottle
+read
+image (144, 176, 3)
+preprocessing finished
+73.06% aircraft carrier, carrier, flattop, attack aircraft carrier
+21.47% syringe
+read
+image (144, 176, 3)
+preprocessing finished
+20.32% syringe
+11.01% conch
+7.203247065359706 fps
+read
+image (144, 176, 3)
+preprocessing finished
+25.58% syringe
+13.87% conch
+read
+image (144, 176, 3)
+preprocessing finished
+36.53% syringe
+12.51% conch
+read
+image (144, 176, 3)
+preprocessing finished
+36.81% aircraft carrier, carrier, flattop, attack aircraft carrier
+23.25% syringe
+read
+image (144, 176, 3)
+preprocessing finished
+44.29% aircraft carrier, carrier, flattop, attack aircraft carrier
+8.22% syringe
+read
+image (144, 176, 3)
+preprocessing finished
+36.99% aircraft carrier, carrier, flattop, attack aircraft carrier
+9.32% running shoe
+read
+image (144, 176, 3)
+preprocessing finished
+64.68% aircraft carrier, carrier, flattop, attack aircraft carrier
+10.30% syringe
+read
+image (144, 176, 3)
+preprocessing finished
+39.80% aircraft carrier, carrier, flattop, attack aircraft carrier
+11.69% syringe
+read
+image (144, 176, 3)
+preprocessing finished
+37.93% aircraft carrier, carrier, flattop, attack aircraft carrier
+20.56% syringe
+7.245363849524493 fps
+read
+image (144, 176, 3)
+preprocessing finished
+47.45% syringe
+7.56% Dutch oven
+read
+image (144, 176, 3)
+preprocessing finished
+34.41% syringe
+13.73% Dutch oven
+read
+image (144, 176, 3)
+preprocessing finished
+20.27% Dutch oven
+17.39% syringe
+read
+image (144, 176, 3)
+preprocessing finished
+79.11% syringe
+7.96% aircraft carrier, carrier, flattop, attack aircraft carrier
+read
+image (144, 176, 3)
+preprocessing finished
+21.62% dumbbell
+8.63% screw
+read
+image (144, 176, 3)
+preprocessing finished
+49.42% screw
+16.92% syringe
+read
+image (144, 176, 3)
+preprocessing finished
+38.41% syringe
+15.33% screw
+read
+image (144, 176, 3)
+preprocessing finished
+22.51% piggy bank, penny bank
+14.22% conch
+7.259696201830543 fps
+read
+image (144, 176, 3)
+preprocessing finished
+10.19% hermit crab
+7.50% Dungeness crab, Cancer magister
+read
+image (144, 176, 3)
+preprocessing finished
+38.59% hermit crab
+15.40% syringe
+read
+image (144, 176, 3)
+preprocessing finished
+11.40% Lhasa, Lhasa apso
+5.30% Shih-Tzu
+read
+image (144, 176, 3)
+preprocessing finished
+19.31% car mirror
+8.98% lighter, light, igniter, ignitor
+read
+image (144, 176, 3)
+preprocessing finished
+18.23% go-kart
+4.59% car mirror
+read
+image (144, 176, 3)
+preprocessing finished
+20.65% umbrella
+2.82% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+11.44% umbrella
+8.42% vault
+read
+image (144, 176, 3)
+preprocessing finished
+4.31% Samoyed, Samoyede
+3.17% Siberian husky
+7.315070237199337 fps
+read
+image (144, 176, 3)
+preprocessing finished
+13.51% mosquito net
+7.32% four-poster
+read
+image (144, 176, 3)
+preprocessing finished
+19.79% bannister, banister, balustrade, balusters, handrail
+12.50% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+8.04% bannister, banister, balustrade, balusters, handrail
+6.90% prison, prison house
+read
+image (144, 176, 3)
+preprocessing finished
+24.99% vault
+9.97% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+9.28% bannister, banister, balustrade, balusters, handrail
+7.96% umbrella
+read
+image (144, 176, 3)
+preprocessing finished
+5.64% bannister, banister, balustrade, balusters, handrail
+5.64% mosquito net
+read
+image (144, 176, 3)
+preprocessing finished
+7.60% vault
+6.52% mosquito net
+read
+image (144, 176, 3)
+preprocessing finished
+14.42% bannister, banister, balustrade, balusters, handrail
+7.82% shovel
+7.392578214933679 fps
+read
+image (144, 176, 3)
+preprocessing finished
+9.85% bannister, banister, balustrade, balusters, handrail
+3.37% vault
+read
+image (144, 176, 3)
+preprocessing finished
+16.42% vault
+10.37% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+11.52% mosquito net
+7.28% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+23.02% snowplow, snowplough
+10.71% mosquito net
+read
+image (144, 176, 3)
+preprocessing finished
+12.20% vault
+7.71% bannister, banister, balustrade, balusters, handrail
+read
+image (144, 176, 3)
+preprocessing finished
+22.86% mosquito net
+16.83% vault
+read
+image (144, 176, 3)
+preprocessing finished
+16.63% bannister, banister, balustrade, balusters, handrail
+14.27% vault
+read
+image (144, 176, 3)
+preprocessing finished
+16.83% mosquito net
+9.12% fire screen, fireguard
+7.340246472826628 fps
+read
+image (144, 176, 3)
+preprocessing finished
+11.34% umbrella
+7.16% seat belt, seatbelt
+read
+image (144, 176, 3)
+preprocessing finished
+20.23% doormat, welcome mat
+14.89% window screen
+read
+image (144, 176, 3)
+preprocessing finished
+6.09% umbrella
+4.49% chest
+read
+image (144, 176, 3)
+preprocessing finished
+7.30% broom
+7.30% shovel
+read
+image (144, 176, 3)
+preprocessing finished
+13.41% umbrella
+9.87% broom
+read
+image (144, 176, 3)
+preprocessing finished
+15.68% umbrella
+15.68% vault
+read
+image (144, 176, 3)
+preprocessing finished
+11.10% umbrella
+7.01% doormat, welcome mat
+read
+image (144, 176, 3)
+preprocessing finished
+4.15% shovel
+2.62% snowplow, snowplough
+7.34155697903874 fps
+read
+image (144, 176, 3)
+preprocessing finished
+6.28% mosquito net
+6.28% snowplow, snowplough
+read
+image (144, 176, 3)
+preprocessing finished
+8.71% mosquito net
+4.72% car mirror
+read
+image (144, 176, 3)
+preprocessing finished
+2.57% screw
+2.20% car mirror
+read
+image (144, 176, 3)
+preprocessing finished
+2.33% golf ball
+1.71% spotlight, spot
+read
+image (144, 176, 3)
+preprocessing finished
+4.25% radiator
+2.30% shower curtain
+read
+image (144, 176, 3)
+preprocessing finished
+11.45% washbasin, handbasin, washbowl, lavabo, wash-hand basin
+7.23% bathtub, bathing tub, bath, tub
+read
+image (144, 176, 3)
+preprocessing finished
+24.42% wing
+17.98% missile
+read
+image (144, 176, 3)
+preprocessing finished
+22.74% car mirror
+7.79% motor scooter, scooter
+7.226626136858743 fps
+read
+image (144, 176, 3)
+preprocessing finished
+19.86% bullet train, bullet
+14.62% forklift
+read
+image (144, 176, 3)
+preprocessing finished
+11.28% red wine
+7.12% dumbbell
+read
+image (144, 176, 3)
+preprocessing finished
+26.96% grand piano, grand
+23.14% rotisserie
+read
+image (144, 176, 3)
+preprocessing finished
+55.62% scoreboard
+14.02% shoe shop, shoe-shop, shoe store
+read
+image (144, 176, 3)
+preprocessing finished
+78.67% scoreboard
+5.83% shoe shop, shoe-shop, shoe store
+read
+image (144, 176, 3)
+preprocessing finished
+67.65% scoreboard
+7.93% monitor
+read
+image (144, 176, 3)
+preprocessing finished
+40.50% scoreboard
+16.16% monitor
+read
+image (144, 176, 3)
+preprocessing finished
+30.77% scoreboard
+16.68% monitor
+7.1890533428003485 fps
+read
+image (144, 176, 3)
+preprocessing finished
+43.46% scoreboard
+14.88% shoe shop, shoe-shop, shoe store
+read
+image (144, 176, 3)
+preprocessing finished
+30.89% scoreboard
+19.52% monitor
+read
+image (144, 176, 3)
+preprocessing finished
+45.03% scoreboard
+15.42% monitor
+read
+image (144, 176, 3)
+preprocessing finished
+68.28% scoreboard
+9.33% monitor
+read
+image (144, 176, 3)
+preprocessing finished
+69.29% scoreboard
+11.03% monitor
+read
+image (144, 176, 3)
+preprocessing finished
+37.41% scoreboard
+23.63% shoe shop, shoe-shop, shoe store
+read
+image (144, 176, 3)
+preprocessing finished
+42.79% scoreboard
+19.90% shoe shop, shoe-shop, shoe store
+read
+image (144, 176, 3)
+preprocessing finished
+44.16% scoreboard
+12.97% shoe shop, shoe-shop, shoe store
+7.225295659667418 fps
+read
+image (144, 176, 3)
+preprocessing finished
+55.69% scoreboard
+12.05% monitor
+read
+image (144, 176, 3)
+preprocessing finished
+43.91% scoreboard
+17.52% monitor
+read
+image (144, 176, 3)
+preprocessing finished
+52.82% monitor
+13.32% desktop computer
+read
+image (144, 176, 3)
+preprocessing finished
+37.68% scoreboard
+11.07% lawn mower, mower
+read
+image (144, 176, 3)
+preprocessing finished
+54.30% scoreboard
+8.65% lawn mower, mower
+read
+image (144, 176, 3)
+preprocessing finished
+25.58% scoreboard
+21.95% shoe shop, shoe-shop, shoe store
+read

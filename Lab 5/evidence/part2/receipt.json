@@ -1,0 +1,96 @@
+{
+  "source": "C:\\Users\\alexx\\Downloads\\IMG_8373.mov",
+  "source_bytes": 26341573,
+  "source_sha256": "d517a8d018c62e04bf30e3f856a53622895d33d5887fa2c119a98a7ac81fc190",
+  "source_media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "44100",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "88.251667"
+    }
+  },
+  "deliverable": "evidence/part2/finished-companion.mp4",
+  "deliverable_bytes": 26382906,
+  "deliverable_sha256": "aaafaf19aac801cbe358c5cd31dd214f19a50c3f718c73d82b8cb016cc69f3da",
+  "deliverable_media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "44100",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "88.258005"
+    }
+  },
+  "encoded_stream_sha256_matches": {
+    "0:v:0": true,
+    "0:a:0": true
+  },
+  "conversion": "FFmpeg stream-copy remux with faststart; no cuts, speed changes, or re-encoding",
+  "still": {
+    "path": "evidence/part2/enclosure-70s.jpg",
+    "source_time_seconds": 70
+  },
+  "local_implementation_sha256": {
+    "scripts/b1_shelf_watcher.py": "89a8ddc136e5e1af9d3847457e02d7f16db701682d71e7a8894df20d07dfe953",
+    "scripts/b1_display.py": "dda770617adfa30bef17d25fbc028398d8160500bce1bf5e3a74b1cde6a1d36d",
+    "scripts/a4_camera.py": "a9ebb5a96142e14d0b1a7c2771a3a125433c70816afab78e66087b2238248511",
+    "models/a4-pi-v2/model.tflite": "aa7bf8402ce755014114dbbc298ee6f3b08e404507235dde72af2735c6f3a513",
+    "models/a4-pi-v2/labels.txt": "47e8d70e3cbadcb0e451c76ddf7a5a0a448dea7f9ca5475b5cb35bb9e43db59b",
+    "assets/audio/reminder-01.wav": "0d49cd36b1a5abb08b305183011d419363505b7baa18d8959fc6d2d3d73eda77",
+    "assets/audio/reminder-02.wav": "0dd124ae5f6b02ba1d18a2ad59ca70eb56a281bcf4178f656cffcbb6e2dd4668",
+    "assets/audio/reminder-03.wav": "a38260e2ba1baa0a76aedfdcc7b737f74abc5ffd1bb8f12078961d99f09d8880"
+  },
+  "settings_scope": "Final-run metadata confirms 10-second persistence, 7-second cooldown, and 0.85 threshold. Model and audio hashes match local assets; deployed source was not independently hashed.",
+  "verified_run_settings": {
+    "mode": "voice",
+    "audio_test": false,
+    "display": "mini-pitft",
+    "display_rotation": 90,
+    "model": "/home/ne8ula/a4-shelf-watcher/models/a4-pi-v2/model.tflite",
+    "labels": "/home/ne8ula/a4-shelf-watcher/models/a4-pi-v2/labels.txt",
+    "audio_dir": "/home/ne8ula/a4-shelf-watcher/assets/audio",
+    "output": "/home/ne8ula/a4-shelf-watcher/runs/part-b",
+    "camera": 0,
+    "seconds": 300.0,
+    "fps": 5,
+    "start_delay": 10.0,
+    "persistence": 10.0,
+    "cooldown": 7.0,
+    "threshold": 0.85,
+    "max_gap": 3
+  },
+  "source_run": "/home/ne8ula/a4-shelf-watcher/runs/part-b/20261110-201915-491650-voice",
+  "log_sha256": {
+    "events.jsonl": "336cf18f4144a9161be75347ccff32dca4f422c563283404c10b33e5e1bbde58",
+    "metadata.json": "ed211f1cf7cc36e8edf3daf68d9e1b1b633d638d975c1cda371112d3bd6b3da8",
+    "predictions.csv": "71b298cb43a08d6f14886755c766b7aef3218c511f911cd0346ad1b63c846128"
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "total_frames": 897,
+  "scored_frames": 872,
+  "excluded_transition_frames": 25,
+  "correct": 826,
+  "accuracy": 0.9472477064220184,
+  "confusion_matrix": {
+    "WORK": {
+      "WORK": 472,
+      "VIDEO": 0,
+      "NEUTRAL": 2
+    },
+    "VIDEO": {
+      "WORK": 27,
+      "VIDEO": 333,
+      "NEUTRAL": 2
+    },
+    "NEUTRAL": {
+      "WORK": 0,
+      "VIDEO": 15,
+      "NEUTRAL": 21
+    }
+  },
+  "by_class": {
+    "WORK": {
+      "frames": 474,
+      "correct": 472,
+      "recall": 0.9957805907172996
+    },
+    "VIDEO": {
+      "frames": 362,
+      "correct": 333,
+      "recall": 0.919889502762431
+    },
+    "NEUTRAL": {
+      "frames": 36,
+      "correct": 21,
+      "recall": 0.5833333333333334
+    }
+  },
+  "all_prediction_counts": {
+    "WORK": 511,
+    "VIDEO": 359,
+    "NEUTRAL": 27
+  },
+  "total_label_switches": 40,
+  "same_expected_class_label_switches": 23,
+  "wrong_frames": [
+    319,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    381,
+    382,
+    383,
+    384,
+    385,
+    467,
+    468,
+    469,
+    470,
+    471,
+    473,
+    475,
+    476,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    485,
+    486,
+    488,
+    580,
+    581,
+    609,
+    610,
+    611,
+    612,
+    613,
+    614,
+    701,
+    702,
+    703,
+    704,
+    705,
+    706,
+    707,
+    708,
+    709
+  ],
+  "wrong_at_score_ge_95": 24,
+  "segments": [
+    {
+      "start_frame": "0",
+      "end_frame": "149",
+      "expected": "WORK",
+      "scene": "Editor and editor dialogs",
+      "frames": 150,
+      "video_start_seconds": 0.0,
+      "video_end_exclusive_seconds": 30.0,
+      "prediction_counts": {
+        "WORK": 150
+      },
+      "correct": 150,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "150",
+      "end_frame": "150",
+      "expected": "TRANSITION",
+      "scene": "Editor and video window overlap",
+      "frames": 1,
+      "video_start_seconds": 30.0,
+      "video_end_exclusive_seconds": 30.2,
+      "prediction_counts": {
+        "VIDEO": 1
+      },
+      "correct": null,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "151",
+      "end_frame": "209",
+      "expected": "VIDEO",
+      "scene": "Windowed video platform",
+      "frames": 59,
+      "video_start_seconds": 30.2,
+      "video_end_exclusive_seconds": 42.0,
+      "prediction_counts": {
+        "VIDEO": 59
+      },
+      "correct": 59,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "210",
+      "end_frame": "216",
+      "expected": "TRANSITION",
+      "scene": "Work window over video",
+      "frames": 7,
+      "video_start_seconds": 42.0,
+      "video_end_exclusive_seconds": 43.4,
+      "prediction_counts": {
+        "VIDEO": 7
+      },
+      "correct": null,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "217",
+      "end_frame": "221",
+      "expected": "VIDEO",
+      "scene": "Windowed video platform",
+      "frames": 5,
+      "video_start_seconds": 43.4,
+      "video_end_exclusive_seconds": 44.4,
+      "prediction_counts": {
+        "VIDEO": 5
+      },
+      "correct": 5,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "222",
+      "end_frame": "247",
+      "expected": "WORK",
+      "scene": "Editor",
+      "frames": 26,
+      "video_start_seconds": 44.4,
+      "video_end_exclusive_seconds": 49.6,
+      "prediction_counts": {
+        "WORK": 26
+      },
+      "correct": 26,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "248",
+      "end_frame": "268",
+      "expected": "NEUTRAL",
+      "scene": "Desktop wallpaper including exposure settling",
+      "frames": 21,
+      "video_start_seconds": 49.6,
+      "video_end_exclusive_seconds": 53.8,
+      "prediction_counts": {
+        "NEUTRAL": 21
+      },
+      "correct": 21,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "269",
+      "end_frame": "270",
+      "expected": "TRANSITION",
+      "scene": "Desktop to video loading",
+      "frames": 2,
+      "video_start_seconds": 53.8,
+      "video_end_exclusive_seconds": 54.2,
+      "prediction_counts": {
+        "VIDEO": 1,
+        "NEUTRAL": 1
+      },
+      "correct": null,
+      "label_switches": 1
+    },
+    {
+      "start_frame": "271",
+      "end_frame": "337",
+      "expected": "VIDEO",
+      "scene": "Video platform and player layout changes",
+      "frames": 67,
+      "video_start_seconds": 54.2,
+      "video_end_exclusive_seconds": 67.6,
+      "prediction_counts": {
+        "VIDEO": 66,
+        "WORK": 1
+      },
+      "correct": 66,
+      "label_switches": 2
+    },
+    {
+      "start_frame": "338",
+      "end_frame": "400",
+      "expected": "VIDEO",
+      "scene": "Fullscreen video including player loading and bright scenes",
+      "frames": 63,
+      "video_start_seconds": 67.6,
+      "video_end_exclusive_seconds": 80.2,
+      "prediction_counts": {
+        "VIDEO": 52,
+        "WORK": 11
+      },
+      "correct": 52,
+      "label_switches": 4
+    },
+    {
+      "start_frame": "401",
+      "end_frame": "462",
+      "expected": "WORK",
+      "scene": "Editor",
+      "frames": 62,
+      "video_start_seconds": 80.2,
+      "video_end_exclusive_seconds": 92.6,
+      "prediction_counts": {
+        "WORK": 62
+      },
+      "correct": 62,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "463",
+      "end_frame": "463",
+      "expected": "TRANSITION",
+      "scene": "Editor and video overlap",
+      "frames": 1,
+      "video_start_seconds": 92.6,
+      "video_end_exclusive_seconds": 92.8,
+      "prediction_counts": {
+        "WORK": 1
+      },
+      "correct": null,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "464",
+      "end_frame": "537",
+      "expected": "VIDEO",
+      "scene": "Fullscreen video",
+      "frames": 74,
+      "video_start_seconds": 92.8,
+      "video_end_exclusive_seconds": 107.6,
+      "prediction_counts": {
+        "VIDEO": 57,
+        "WORK": 15,
+        "NEUTRAL": 2
+      },
+      "correct": 57,
+      "label_switches": 15
+    },
+    {
+      "start_frame": "538",
+      "end_frame": "542",
+      "expected": "TRANSITION",
+      "scene": "Overexposed switch to white document",
+      "frames": 5,
+      "video_start_seconds": 107.6,
+      "video_end_exclusive_seconds": 108.6,
+      "prediction_counts": {
+        "WORK": 5
+      },
+      "correct": null,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "543",
+      "end_frame": "579",
+      "expected": "WORK",
+      "scene": "White document confirmed WORK by user",
+      "frames": 37,
+      "video_start_seconds": 108.6,
+      "video_end_exclusive_seconds": 116.0,
+      "prediction_counts": {
+        "WORK": 37
+      },
+      "correct": 37,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "580",
+      "end_frame": "581",
+      "expected": "WORK",
+      "scene": "Switch between white document and editor",
+      "frames": 2,
+      "video_start_seconds": 116.0,
+      "video_end_exclusive_seconds": 116.4,
+      "prediction_counts": {
+        "NEUTRAL": 2
+      },
+      "correct": 0,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "582",
+      "end_frame": "608",
+      "expected": "WORK",
+      "scene": "Editor",
+      "frames": 27,
+      "video_start_seconds": 116.4,
+      "video_end_exclusive_seconds": 121.8,
+      "prediction_counts": {
+        "WORK": 27
+      },
+      "correct": 27,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "609",
+      "end_frame": "614",
+      "expected": "NEUTRAL",
+      "scene": "Wallpaper with small terminal confirmed NEUTRAL by user",
+      "frames": 6,
+      "video_start_seconds": 121.8,
+      "video_end_exclusive_seconds": 123.0,
+      "prediction_counts": {
+        "VIDEO": 6
+      },
+      "correct": 0,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "615",
+      "end_frame": "699",
+      "expected": "WORK",
+      "scene": "Editor",
+      "frames": 85,
+      "video_start_seconds": 123.0,
+      "video_end_exclusive_seconds": 140.0,
+      "prediction_counts": {
+        "WORK": 85
+      },
+      "correct": 85,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "700",
+      "end_frame": "700",
+      "expected": "TRANSITION",
+      "scene": "Editor remnants over wallpaper",
+      "frames": 1,
+      "video_start_seconds": 140.0,
+      "video_end_exclusive_seconds": 140.2,
+      "prediction_counts": {
+        "VIDEO": 1
+      },
+      "correct": null,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "701",
+      "end_frame": "709",
+      "expected": "NEUTRAL",
+      "scene": "Wallpaper with small terminal confirmed NEUTRAL by user",
+      "frames": 9,
+      "video_start_seconds": 140.2,
+      "video_end_exclusive_seconds": 142.0,
+      "prediction_counts": {
+        "VIDEO": 9
+      },
+      "correct": 0,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "710",
+      "end_frame": "733",
+      "expected": "WORK",
+      "scene": "Editor",
+      "frames": 24,
+      "video_start_seconds": 142.0,
+      "video_end_exclusive_seconds": 146.8,
+      "prediction_counts": {
+        "WORK": 24
+      },
+      "correct": 24,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "734",
+      "end_frame": "738",
+      "expected": "TRANSITION",
+      "scene": "Overexposed switch to white document",
+      "frames": 5,
+      "video_start_seconds": 146.8,
+      "video_end_exclusive_seconds": 147.8,
+      "prediction_counts": {
+        "WORK": 5
+      },
+      "correct": null,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "739",
+      "end_frame": "786",
+      "expected": "WORK",
+      "scene": "White document confirmed WORK by user",
+      "frames": 48,
+      "video_start_seconds": 147.8,
+      "video_end_exclusive_seconds": 157.4,
+      "prediction_counts": {
+        "WORK": 48
+      },
+      "correct": 48,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "787",
+      "end_frame": "789",
+      "expected": "TRANSITION",
+      "scene": "Document to video platform loading",
+      "frames": 3,
+      "video_start_seconds": 157.4,
+      "video_end_exclusive_seconds": 158.0,
+      "prediction_counts": {
+        "NEUTRAL": 1,
+        "WORK": 1,
+        "VIDEO": 1
+      },
+      "correct": null,
+      "label_switches": 2
+    },
+    {
+      "start_frame": "790",
+      "end_frame": "883",
+      "expected": "VIDEO",
+      "scene": "Video platform browsing and windowed playback",
+      "frames": 94,
+      "video_start_seconds": 158.0,
+      "video_end_exclusive_seconds": 176.8,
+      "prediction_counts": {
+        "VIDEO": 94
+      },
+      "correct": 94,
+      "label_switches": 0
+    },
+    {
+      "start_frame": "884",
+      "end_frame": "896",
+      "expected": "WORK",
+      "scene": "Editor",
+      "frames": 13,
+      "video_start_seconds": 176.8,
+      "video_end_exclusive_seconds": 179.4,
+      "prediction_counts": {
+        "WORK": 13
+      },
+      "correct": 13,
+      "label_switches": 0
+    }
+  ],
+  "source_sha256": {
+    "predictions.csv": "f11f0084d8c3f6c6b657cb5282c6572fdfa6f2445d271457077b6c7b6be04402",
+    "annotations.csv": "7de808e3f34e2cb2521eeecadbc0bd864bc9004a1295b7eb9301cce4bccab940"
+  },
+  "method": "Manual interval labels: camera-only images reviewed every 5 frames (1 second), with every frame inspected around identified class boundaries. Class labels interpolated within continuous scenes. White documents were labeled WORK and wallpaper with a small terminal was labeled NEUTRAL. Predictions were not used to choose labels. Frame-weighted descriptive results for this one correlated recording; no generalization estimate."
+}

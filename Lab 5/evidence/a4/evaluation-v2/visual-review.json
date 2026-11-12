@@ -1,0 +1,63 @@
+{
+  "reason": "Visual review found six frames did not contain the requested neutral-only scene. Raw logs and nominal labels are preserved.",
+  "excluded_from_stable_scene_summary": {
+    "NEUTRAL/20261110T211311014765Z-desktop-recapture/processed/0009.png": "Window switcher overlays the desktop",
+    "NEUTRAL/20261110T211311014765Z-desktop-recapture/processed/0010.png": "Window switcher overlays the desktop",
+    "NEUTRAL/20261110T211311014765Z-desktop-recapture/processed/0011.png": "Editor replaced the desktop during capture",
+    "NEUTRAL/20261110T211311014765Z-desktop-recapture/processed/0012.png": "Editor replaced the desktop during capture",
+    "NEUTRAL/20261110T211311014765Z-desktop-recapture/processed/0013.png": "Editor replaced the desktop during capture",
+    "NEUTRAL/20261110T211311014765Z-desktop-recapture/processed/0014.png": "Editor replaced the desktop during capture"
+  },
+  "models": {
+    "a4-kiyo-v1": {
+      "stable_scene_frames": 38,
+      "correct": 38,
+      "by_class": {
+        "WORK": {
+          "frames": 14,
+          "correct": 14,
+          "top_score_min": 0.703125,
+          "top_score_max": 0.8671875
+        },
+        "VIDEO": {
+          "frames": 15,
+          "correct": 15,
+          "top_score_min": 0.6171875,
+          "top_score_max": 0.99609375
+        },
+        "NEUTRAL": {
+          "frames": 9,
+          "correct": 9,
+          "top_score_min": 0.6171875,
+          "top_score_max": 0.9609375
+        }
+      },
+      "median_invoke_seconds": 0.02997065349973127
+    },
+    "a4-pi-v2": {
+      "stable_scene_frames": 38,
+      "correct": 38,
+      "by_class": {
+        "WORK": {
+          "frames": 14,
+          "correct": 14,
+          "top_score_min": 0.984375,
+          "top_score_max": 0.99609375
+        },
+        "VIDEO": {
+          "frames": 15,
+          "correct": 15,
+          "top_score_min": 0.99609375,
+          "top_score_max": 0.99609375
+        },
+        "NEUTRAL": {
+          "frames": 9,
+          "correct": 9,
+          "top_score_min": 0.99609375,
+          "top_score_max": 0.99609375
+        }
+      },
+      "median_invoke_seconds": 0.03001159799987363
+    }
+  }
+}
