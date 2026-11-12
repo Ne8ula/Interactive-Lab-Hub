@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>{{ role|title }} station</title>
+  <style>
+    body{margin:0;height:100vh;height:100dvh;display:flex;flex-direction:column;font-family:Arial,Helvetica,sans-serif;text-align:center;background:#f4f2ea;color:#26332b}
+    p{margin:0;padding:10px 16px;font-size:15px}
+    #turn{font:400 24px Georgia,serif}
+    #pad{flex:1;margin:0 16px;border:0;border-radius:18px;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;font:700 20px Arial,Helvetica,sans-serif;touch-action:none;user-select:none;-webkit-user-select:none}
+    .water{background:#3f79b8}.mulch{background:#a87b4f}.sun{background:#d99a1c}
+    #pad.wait{background:#8c8f86}
+    #pad.held{filter:brightness(1.25)}
+    input[type=range]{width:80%;height:44px;accent-color:#fff}
+    progress{width:calc(100% - 32px);height:14px;margin:10px 16px 0;accent-color:#2f7a3d}
+    code{font-size:12px}
+  </style>
+</head>
+<body>
+  <p>{{ role|upper }} STATION · PHONE</p>
+  <p id="turn" role="status">Finding the garden…</p>
+  {% if role == 'water' %}
+  <div id="pad" class="water"><label for="tilt">Slide right to tip the can, back left to stop</label><input id="tilt" type="range" min="0" max="100" step="10" value="0"></div>
+  {% elif role == 'sun' %}
+  <button id="pad" class="sun" type="button">Hold here for sun</button>
+  {% else %}
+  <div id="pad" class="mulch">Rub here to spread mulch</div>
+  {% endif %}
+  <progress id="meter" max="100" value="0" aria-label="{{ role|title }} progress"></progress>
+  <p id="status" role="status">Connecting…</p>
+  <p><code id="sent">MQTT topic: …/garden/{{ role }}</code></p>
+  <script>
+    const ROLE = '{{ role }}';
+    const pad = document.getElementById('pad'), status = document.getElementById('status');
+
+    // Each role reports one small payload. next() says what to send now, or null for nothing new.
+    let next;
+    if (ROLE === 'water') {
+      const tilt = document.getElementById('tilt');
+      let last = null;
+      next = beat => (+tilt.value !== last || beat) ? {tilt: last = +tilt.value} : null;
+    } else if (ROLE === 'sun') {
+      let on = false, last = null;
+      const set = value => { on = value; pad.classList.toggle('held', on); };
+      pad.addEventListener('pointerdown', e => { set(true); pad.setPointerCapture(e.pointerId); });
+      for (const type of ['pointerup', 'pointercancel', 'lostpointercapture']) pad.addEventListener(type, () => set(false));
+      pad.addEventListener('contextmenu', e => e.preventDefault());  // a long press must not open a menu
+      next = beat => (on !== last || beat) ? {on: last = on} : null;
+    } else {
+      let rubbed = 0, at = null;  // pixels dragged since the last send
+      pad.addEventListener('pointerdown', e => { at = {x: e.clientX, y: e.clientY}; pad.setPointerCapture(e.pointerId); });
+      pad.addEventListener('pointermove', e => {
+        if (!at) return;
+        rubbed += Math.hypot(e.clientX - at.x, e.clientY - at.y);
+        at = {x: e.clientX, y: e.clientY};
+      });
+      for (const type of ['pointerup', 'pointercancel']) pad.addEventListener(type, () => at = null);
+      next = beat => {
+        const amount = Math.min(10, Math.floor(rubbed / 40));  // 40 px of rubbing = one unit of mulch
+        rubbed -= amount * 40;
+        return (amount || beat) ? {amount} : null;
+      };
+    }
+
+    let beatAt = 0;
+    async function send() {
+      const beat = Date.now() - beatAt >= 1000;  // once a second regardless = "this phone is here"
+      const payload = next(beat);
+      if (payload) {
+        beatAt = Date.now();
+        try {
+          const r = await fetch('/api/phone/' + ROLE, {method: 'POST', headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(payload), signal: AbortSignal.timeout(3000)});
+          status.textContent = r.ok ? 'Connected to the garden' : r.status === 503 ? 'Laptop is not connected to MQTT' : `Error ${r.status}`;
+          if (r.ok) document.getElementById('sent').textContent = `MQTT …/garden/${ROLE} ${JSON.stringify({...payload, from: 'phone'})}`;
+        } catch { status.textContent = 'Cannot reach the laptop'; }
+      }
+      setTimeout(send, 150);
+    }
+    send();
+
+    async function look() {
+      try {
+        const data = await (await fetch('/api/state', {cache: 'no-store'})).json();
+        const mine = data.mode === 'growing' && data.step === ROLE;
+        document.getElementById('turn').textContent = mine ? data.hint : data.mode === 'growing' ? 'Not your turn. Acting now withers the plant.' : data.hint;
+        pad.classList.toggle('wait', !mine);
+        document.getElementById('meter').value = mine ? data.meter : 0;
+      } catch { document.getElementById('turn').textContent = 'Cannot see the garden'; }
+      setTimeout(look, 400);
+    }
+    look();
+  </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+paho-mqtt>=2.1,<3
+# water: rotary encoder (seesaw); screen: Mini PiTFT
+Adafruit-Blinka>=8.0,<9
+adafruit-circuitpython-seesaw
+adafruit-circuitpython-rgb-display
+Pillow
+# mulch: SparkFun Qwiic Joystick; sun: SparkFun Qwiic Button
+sparkfun-qwiic-joystick
+sparkfun-qwiic-button
+# part_b_buttons.py only
+gpiozero

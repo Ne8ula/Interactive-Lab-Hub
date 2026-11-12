@@ -1,0 +1,7 @@
+.venv/
+.venv-part-b/
+__pycache__/
+*.pyc
+.env
+calibration-*.json
+artifacts/

@@ -1,0 +1,42 @@
+{
+  "repository": "IRL-CT/Interactive-Lab-Hub",
+  "ref": "Fall2025",
+  "retrieved": "2026-11-09",
+  "files": [
+    {
+      "path": "app.py",
+      "sha": "6a66d0ebb389ed50c72c0e3e5a12c14631b617f4",
+      "url": "https://github.com/IRL-CT/Interactive-Lab-Hub/blob/Fall2025/Lab%206/app.py"
+    },
+    {
+      "path": "mqtt_bridge.py",
+      "sha": "ec10f3f54f305e625102a7f5780f09aea1fb561e",
+      "url": "https://github.com/IRL-CT/Interactive-Lab-Hub/blob/Fall2025/Lab%206/mqtt_bridge.py"
+    },
+    {
+      "path": "pixel_grid_publisher.py",
+      "sha": "c235b88ae09d5688e3e624286a83f144ec173593",
+      "url": "https://github.com/IRL-CT/Interactive-Lab-Hub/blob/Fall2025/Lab%206/pixel_grid_publisher.py"
+    },
+    {
+      "path": "requirements-pi.txt",
+      "sha": "e8530f4506cae5f5da4670c6d360195a9e0c5840",
+      "url": "https://github.com/IRL-CT/Interactive-Lab-Hub/blob/Fall2025/Lab%206/requirements-pi.txt"
+    },
+    {
+      "path": "requirements-server.txt",
+      "sha": "bd54c88dcd40a4b30ce4445b24647da2362be35c",
+      "url": "https://github.com/IRL-CT/Interactive-Lab-Hub/blob/Fall2025/Lab%206/requirements-server.txt"
+    },
+    {
+      "path": "templates/grid.html",
+      "sha": "cb32c5dde239f28d119fb6f4c57fed871d693011",
+      "url": "https://github.com/IRL-CT/Interactive-Lab-Hub/blob/Fall2025/Lab%206/templates/grid.html"
+    },
+    {
+      "path": "templates/controller.html",
+      "sha": "23f96c46770c80ed0b2e4627aafd662b95ef412a",
+      "url": "https://github.com/IRL-CT/Interactive-Lab-Hub/blob/Fall2025/Lab%206/templates/controller.html"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shared Garden</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header><a class="brand" href="/">shared garden</a><span class="edition">ONE PLANT, THREE PEOPLE · LAB 06</span></header>
+    <div id="demo-banner" class="demo-banner" hidden>SIMULATED PREVIEW · No stations or MQTT connected. Not hardware evidence.</div>
+    <p id="hint" class="hint" role="status">Connecting…</p>
+    <p class="rounds"><span id="round">Round 1 of 3</span> <span id="pips" aria-hidden="true"></span></p>
+    <canvas id="scene" width="900" height="500" aria-hidden="true"></canvas>
+    <ol class="steps" aria-label="The order to follow">
+      <li class="step" data-role="water"><h2>1 · Water</h2><p class="who">Waiting for a station</p><progress max="100" value="0"></progress><p class="state">Wait</p></li>
+      <li class="step" data-role="mulch"><h2>2 · Mulch</h2><p class="who">Waiting for a station</p><progress max="100" value="0"></progress><p class="state">Wait</p></li>
+      <li class="step" data-role="sun"><h2>3 · Sun</h2><p class="who">Waiting for a station</p><progress max="100" value="0"></progress><p class="state">Wait</p></li>
+    </ol>
+    <section class="mqtt" aria-label="MQTT messages">
+      <h2><span class="status-dot" id="status-dot"></span><span id="connection">Connecting to the display…</span></h2>
+      <table>
+        <thead><tr><th>Topic</th><th>Latest message</th><th>Received</th></tr></thead>
+        <tbody id="topics"></tbody>
+      </table>
+      <pre id="log" aria-label="Recent changes"></pre>
+    </section>
+    <footer><span>Do them in order, three times, and the plant flowers. Go out of turn and it withers. Phone stations: <a href="/phone/water">/phone/water</a> · <a href="/phone/mulch">/phone/mulch</a> · <a href="/phone/sun">/phone/sun</a></span><span id="team"></span></footer>
+  </main>
+</body>
+</html>
