@@ -3,14 +3,6 @@
 **Lab 6: Distributed Interaction · Fall2025**
 **Author:** Hao Chen Xiong
 
-## Deliverables
-
-- [Part A: MQTT messaging and screenshots](#part-a-mqtt-messaging)
-- [Part B: pixel grid, photos and video](#part-b-collaborative-pixel-grid) | [Course starter code](part-b-starter/) | [Button publisher](part_b_buttons.py)
-- [Part C: Shared Garden, architecture, build and source code](#part-c-shared-garden)
-- Videos: [Full garden run](evidence/garden-run.mp4) | [Mulch station](evidence/pi-mulch.mp4) | [Sun station](evidence/pi-sun.mp4) | [Part B buttons](evidence/part-b-buttons-demo.mov) | [User test](evidence/user-test.mp4)
-- [User testing](#4-user-testing) | [Reflection](#5-reflection)
-- [Install and launch](docs/SETUP.md)
 
 ## Launch the prototype
 
