@@ -136,7 +136,7 @@ def main():
     mqtt_arguments(parser)
     parser.add_argument("--demo", action="store_true", help="Offline simulated preview, not lab evidence")
     parser.add_argument("--host", default="127.0.0.1")
-    parser.add_argument("--port", type=int, default=5000)
+    parser.add_argument("--port", type=int, default=5001)  # not 5000: macOS AirPlay Receiver holds it
     args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s", datefmt="%H:%M:%S")
     logging.getLogger("werkzeug").setLevel(logging.WARNING)  # keep the terminal for MQTT traffic

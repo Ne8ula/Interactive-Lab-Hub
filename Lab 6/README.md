@@ -8,23 +8,23 @@
 - [Part A: MQTT messaging and screenshots](#part-a-mqtt-messaging)
 - [Part B: pixel grid, photos and video](#part-b-collaborative-pixel-grid) | [Course starter code](part-b-starter/) | [Button publisher](part_b_buttons.py)
 - [Part C: Shared Garden, architecture, build and source code](#part-c-shared-garden)
-- Videos: [Full garden run](evidence/garden-run.mp4) | [Mulch station](evidence/pi-mulch.mp4) | [Sun station](evidence/pi-sun.mp4) | [Part B buttons](evidence/part-b-buttons-demo.mov)
-- [User testing status](#4-user-testing) | [Reflection](#5-reflection)
+- Videos: [Full garden run](evidence/garden-run.mp4) | [Mulch station](evidence/pi-mulch.mp4) | [Sun station](evidence/pi-sun.mp4) | [Part B buttons](evidence/part-b-buttons-demo.mov) | [User test](evidence/user-test.mp4)
+- [User testing](#4-user-testing) | [Reflection](#5-reflection)
 - [Install and launch](docs/SETUP.md)
 
 ## Launch the prototype
 
 From the project folder, after [installing dependencies](docs/SETUP.md):
 
-```powershell
-.\.venv\Scripts\python.exe app.py --demo
+```bash
+.venv/bin/python app.py --demo
 ```
 
-Open http://localhost:5000 for the automatic, offline preview. For live MQTT play, use `app.py --host 0.0.0.0` instead of `app.py --demo`; station commands are in [Setup](docs/SETUP.md).
+Open http://localhost:5001 for the automatic, offline preview. For live MQTT play, use `app.py --host 0.0.0.0` instead of `app.py --demo`; station commands are in [Setup](docs/SETUP.md).
 
 ## Lab setup
 
-**Working alone.** The assignment asks for three people and three Pis. I'm doing it solo with one Raspberry Pi 4. I built all three sensor stations as separate prototypes on that Pi, and for playing with three people, phones stand in for the stations the Pi is not running. Every station's messages go over MQTT either way. Details are in Part C.
+**Working alone.** The assignment asks for three people and three Pis. I'm doing it solo with one Raspberry Pi 4. I built all three sensor stations as separate prototypes on that Pi, and for playing with three people, phones stand in for the stations the Pi is not running. Every station's messages go over MQTT either way. Details are in Part C. For the user test I borrowed a classmate's Raspberry Pi 5, so two stations ran on two separate Pis and a phone was the third.
 
 
 ## Part A: MQTT messaging
@@ -287,22 +287,48 @@ d.y += d.vy * dt;
 
 ### 4. User testing
 
-**Not yet conducted.** I have only played it myself so far. I still need to run it with at least two people from outside the project and record what they expected before trying.
+Giorgi and Hao Chen ran this part together. We tested it with two people from outside the project in the maker lab (2026-11-12). There were two testers because we had two Pis between us: a Pi 4 and Giorgi's Pi 5. The Pis ran the water and mulch stations, one tester on each, and a phone ran the sun station. A laptop was the display. Neither tester had used a Raspberry Pi or any of these sensors before.
+
+<a href="evidence/user-test.mp4"><img src="evidence/user-test.jpg" width="300" alt="Still from the user test video: one tester turning the rotary encoder on a Pi, another holding the Qwiic joystick, with the garden on a laptop beside them"></a>
+
+Video of the test: [watch user-test.mp4](evidence/user-test.mp4) | [download](evidence/user-test.mp4?raw=true). Tester 1 turns the encoder to water while Tester 2 holds the joystick for mulch.
+
+**What did they think before trying?**
+
+- They found the display easy to read. The hint line told everybody what to do, so nobody had to ask.
+- The hardware was the confusing part. They had never seen an encoder or a Qwiic joystick, so the parts themselves did not say "watering can" or "mulch".
+- The Mini PiTFT on each Pi told them which job they had. They thought it could say less and instruct more.
+- They did not know the goal at the start. They followed the prompts exactly and enjoyed working out the order as they went.
+- Nobody treated it as a competition.
+
+**What surprised them?**
+
+- The plant withered on their first try. The display said which step had come at the wrong time, so they saw the mistake straight away. (This part is not on video because the phone we were filming with ran out of battery.)
+- After the first round they got into a rhythm. They reached a bloom on their second try.
+- How little delay there was between moving a sensor on a Pi and seeing it on the display, given that every message goes out to the course broker and back.
+
+**What would they change?**
+
+- Simplify the display to just the plant and the hint. The step cards and the MQTT panel are useful to us but were extra to them.
+- Make the stations look and feel like what they stand for. A bare encoder and joystick did not explain themselves.
+- Make the Pi's own screen simpler and more instructional.
 
 ### 5. Reflection
 
-This is based on building it and playing it myself. I will add more after the user tests.
+This is based on building it, playing it myself and the user test above.
 
 **What worked well**
 
 - The order rule works as a game. In my run the plant bloomed after three rounds in order, and it withered when I spread mulch during the sun step.
 - One station program covers all three sensors. I pick the job with `--role`, so the code is what three separate Pis would run.
 - Swapping a sensor for a stand-in page needed no change to the game, because both publish to the same topic.
+- The turn hint carried the game in the user test. Two people who did not know the rules followed it, withered once, and bloomed on their second try.
 - The MQTT panel made the traffic easy to see while playing. I could watch the joystick's messages arrive from the Pi next to the ones from the stand-in tabs.
 
 **Challenges with distributed interaction**
 
-- I only had one Pi. I borrowed a second one but could not log in to it, so I changed the plan to three prototypes on one Pi plus stand-in pages.
+- We only had one Pi while building. I borrowed a second one but could not log in to it at first, so I changed the plan to three prototypes on one Pi plus stand-in pages. For the user test a classmate set up a login for me on their Pi 5, which gave me two real stations.
+- The two Pis are not identical. On the Pi 5 the kernel holds the screen's usual chip select pin, so the station code now picks the pin by board.
 - The course's hosted pixel grid was down when I did Part B, so I ran the course server on my laptop.
 - A station can disappear at any moment. I gave each station a once-a-second heartbeat and the laptop treats three seconds of silence as "gone". When I unplugged the Pi the display dropped to 2 of 3 stations.
 - Messages do not stop the instant a step ends. A finger can still be on the button when the turn changes, so I added a 1.5 second grace period before out-of-turn input counts.
@@ -317,8 +343,9 @@ This is based on building it and playing it myself. I will add more after the us
 
 **What I would improve**
 
-- Test it with real people. That is the biggest gap.
-- Run the stand-in pages on actual phones. I used two browser tabs on the laptop.
-- Build it on three real Pis so nothing has to be swapped.
+- Strip the display down to the plant and the hint, and move the MQTT panel to a separate page. Both testers asked for this.
+- Dress the stations as what they represent, for example the encoder inside a small watering can, so the hardware explains itself.
+- Rewrite the Pi screen as one short instruction, such as "Turn to pour", instead of a status readout.
+- Build the third station on a third Pi so no phone has to stand in.
 - Let a phone talk to the broker directly, so it does not depend on the laptop.
 - Mulch messages can be lost if the network drops, because they are sent once with no confirmation. A lost message means a little less mulch.

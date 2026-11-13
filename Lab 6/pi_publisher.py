@@ -27,8 +27,10 @@ def open_screen(enabled):
         from PIL import Image, ImageDraw, ImageFont
         backlight = digitalio.DigitalInOut(board.D22)
         backlight.switch_to_output(value=True)
-        # CE0 at 24 MHz is what this Pi's screen answers to (checked with a colour test).
-        tft = st7789.ST7789(board.SPI(), cs=digitalio.DigitalInOut(board.CE0),
+        # CE0 at 24 MHz is what the Pi 4's screen answers to (checked with a colour test).
+        # On a Pi 5 the kernel holds CE0, so the screen's chip select is D5 there.
+        cs = board.D5 if "PI_5" in board.board_id else board.CE0
+        tft = st7789.ST7789(board.SPI(), cs=digitalio.DigitalInOut(cs),
                             dc=digitalio.DigitalInOut(board.D25), rst=None, baudrate=24000000,
                             width=135, height=240, x_offset=53, y_offset=40, rotation=90)
     except Exception as error:
