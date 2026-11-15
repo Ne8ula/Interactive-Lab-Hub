@@ -6,15 +6,31 @@
 
 ### A. Capacitive sensing
 
-I no longer have the CRICKIT FeatherWing originally planned for this exercise, so the capacitive test needs the course's MPR121, borrowed. One electrode will connect by an alligator lead to exposed copper tape on an insulating surface; a second will connect to an isolated metal spoon, to compare a found object with the copper. Keep both untouched during startup so baseline measurement is not affected by a hand.
-
-The vault itself no longer uses capacitive sensing: its confirmation input is now a SparkFun Qwiic Button, explained in [E](#e-multi-device-demo). The original `cap_test.py` targets MPR121; the vault code keeps an equivalent MPR121 test mode.
-
-**Code:** [vault.py](vault.py), `make_touch()` and `check_part()`.
+Code: [vault.py](vault.py), `make_touch()` and `check_part()`, run as:
 
 ```bash
 python -u vault.py --test touch --touch-board mpr121
 ```
+
+I used an MPR121 12-key capacitive touch board in place of the CRICKIT FeatherWing originally planned for this exercise. It connects to the Pi by Qwiic cable. Two of its pads, 0 and 1, go out by alligator lead: the red lead to copper tape on a piece of cardboard, and the black lead to a metal spoon, to compare a found object with the copper. I kept both untouched during startup so the baseline was not measured with a hand on them.
+
+<img src="evidence/a-capacitive/mpr121-setup.jpg" width="300" alt="Pi 4 connected by Qwiic cable to the MPR121 board, with a red alligator lead running to copper tape on cardboard and a black lead clipped to the handle of a metal spoon"/>
+
+<a href="evidence/a-capacitive/mpr121-touch-demo.mp4"><img src="evidence/a-capacitive/mpr121-touch-demo.gif" width="260" alt="Touching the copper tape and the spoon in turn"/></a>
+
+Video: [touching the copper tape and the spoon](evidence/a-capacitive/mpr121-touch-demo.mp4).
+
+Terminal output while touching one electrode at a time:
+
+<img src="evidence/a-capacitive/mpr121-touch-terminal-single.png" width="600" alt="Terminal output alternating between an empty list and [1] or [0]"/>
+
+Terminal output while touching both together:
+
+<img src="evidence/a-capacitive/mpr121-touch-terminal-both.png" width="600" alt="Terminal output including [0, 1] between empty lists"/>
+
+Each touch printed the pad's number and each release printed an empty list, so the copper tape and the spoon both worked as touch inputs. Touching both together reported `[0, 1]`. The two pads are read independently: when one hand arrived or left slightly before the other, that pad appears alone on its own line next to `[0, 1]`.
+
+The vault itself does not use capacitive sensing: its confirmation input is a SparkFun Qwiic Button, explained in [E](#e-multi-device-demo). The original `cap_test.py` targets MPR121; the vault code keeps an equivalent MPR121 test mode.
 
 ### B. More sensors
 
